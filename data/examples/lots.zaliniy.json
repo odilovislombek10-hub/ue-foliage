@@ -1,0 +1,193 @@
+{
+ "_comment": "Zaliniy stage-1 lot definition (reproduces group4 / beds_st1 of the original session). Names refer to group3 names written by 04_lots.py propose (LOT_<pdf lot> for lots registered from the PDF plan, KV_<nn>[_k] for automatic blocks). merge: each list becomes one lot (one FOL_ level). spill_pairs [src, dst]: road-closed blocks where dst owns >=50 % of the lawn and src <30 % go to dst. absorb_pairs [src, dst]: raw road blocks where dst owns >=50 % take every src cell. stage: final names to plant ('auto' = every group that contains a PDF lot). palettes: final name -> fresh|sage|deep|blossom. parks: final names allowed to keep one deliberate glade per large bed.",
+ "merge": [
+  [
+   "KV_58",
+   "KV_59"
+  ],
+  [
+   "KV_62",
+   "KV_63"
+  ],
+  [
+   "LOT_39",
+   "LOT_40",
+   "KV_65",
+   "KV_66"
+  ],
+  [
+   "KV_68",
+   "KV_69",
+   "KV_71"
+  ],
+  [
+   "LOT_35-1",
+   "LOT_36",
+   "LOT_36-1"
+  ],
+  [
+   "LOT_38",
+   "LOT_38-1"
+  ],
+  [
+   "LOT_34-1",
+   "LOT_34-2"
+  ],
+  [
+   "LOT_34-3",
+   "LOT_34",
+   "LOT_34-4"
+  ],
+  [
+   "LOT_31",
+   "LOT_31-1",
+   "LOT_28",
+   "LOT_29"
+  ],
+  [
+   "LOT_26",
+   "LOT_25"
+  ],
+  [
+   "LOT_18",
+   "LOT_19",
+   "LOT_22",
+   "LOT_23",
+   "LOT_24"
+  ],
+  [
+   "LOT_20",
+   "LOT_21"
+  ],
+  [
+   "LOT_16",
+   "LOT_17"
+  ],
+  [
+   "LOT_12",
+   "KV_34"
+  ],
+  [
+   "LOT_13",
+   "LOT_14",
+   "LOT_15"
+  ],
+  [
+   "LOT_7",
+   "LOT_8",
+   "LOT_9",
+   "LOT_10"
+  ],
+  [
+   "LOT_5",
+   "LOT_6",
+   "KV_35"
+  ],
+  [
+   "LOT_30",
+   "LOT_1",
+   "LOT_2",
+   "LOT_3"
+  ],
+  [
+   "KV_05",
+   "KV_06",
+   "KV_10",
+   "KV_09",
+   "KV_11",
+   "KV_14",
+   "KV_16",
+   "KV_21",
+   "KV_17",
+   "KV_13",
+   "KV_08",
+   "KV_02",
+   "KV_01",
+   "KV_07"
+  ],
+  [
+   "KV_18",
+   "KV_20",
+   "KV_22",
+   "KV_23",
+   "KV_24",
+   "KV_25",
+   "KV_26",
+   "KV_27",
+   "KV_30",
+   "KV_31_1"
+  ],
+  [
+   "KV_37_1",
+   "KV_37_2"
+  ],
+  [
+   "KV_42",
+   "KV_45",
+   "KV_46",
+   "KV_41",
+   "KV_43",
+   "KV_44"
+  ],
+  [
+   "KV_55",
+   "KV_56",
+   "KV_54"
+  ]
+ ],
+ "spill_pairs": [
+  [
+   "LOT_38",
+   "LOT_37"
+  ],
+  [
+   "LOT_34-4",
+   "LOT_33"
+  ],
+  [
+   "LOT_25",
+   "LOT_20"
+  ],
+  [
+   "LOT_20",
+   "KV_39"
+  ]
+ ],
+ "absorb_pairs": [
+  [
+   "38+38-1",
+   "LOT_37"
+  ]
+ ],
+ "stage": "auto",
+ "palettes": {
+  "5+6+K35": "deep",
+  "7+8+9+10": "fresh",
+  "13+14+15": "sage",
+  "18+19+22+23+24": "fresh",
+  "30+1+2+3": "sage",
+  "12+K34": "deep",
+  "16+17": "blossom",
+  "20+21": "sage",
+  "26+25": "fresh",
+  "LOT_4": "deep",
+  "LOT_128": "sage",
+  "LOT_27": "deep",
+  "31+31-1+28+29": "blossom",
+  "LOT_32": "fresh",
+  "LOT_33": "sage",
+  "34-3+34+34-4": "fresh",
+  "34-1+34-2": "blossom",
+  "LOT_37": "deep",
+  "38+38-1": "sage",
+  "LOT_35": "deep",
+  "35-1+36+36-1": "fresh",
+  "39+40+K65+K66": "sage",
+  "LOT_129": "sage"
+ },
+ "parks": [
+  "LOT_128",
+  "LOT_129"
+ ],
+ "_user_request_uz": "58 59 1 ta lot, 62 63 1 ta lot, 39 40 65 66 1 ta lot, 68 69 71, 35-1 36 36-1, 38 38-1 (ozgina qismi 37 ga), 34-1 34-2, 34-3 34 34-4 (34-4 ning ozgina qismi 33 ga), 31 31-1 28 29, 26 25, 18 19 22 23 24, 20 21 (25 dan qaytarish), 16 17, 12 34, 13 14 15, 7 8 9 10, 5 6 33(K35), 30 1 2 3, K05..K07 bitta, K18..K31_1 bitta, K37_1 K37_2, K41..K46, K54..K56"
+}

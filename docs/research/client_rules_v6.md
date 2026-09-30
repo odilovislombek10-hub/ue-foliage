@@ -1,0 +1,12 @@
+# Client rules after review of v5 (2026-09-29, binding, apply to ALL planting work)
+
+Screenshots with red circles: <referens papka>/image_2026-09-29_22-12-03.png, 22-14-04, 22-15-20, 22-17-31, 22-18-38, 22-19-37, 22-22-53, 22-26-04.
+New references: <referens papka>/8971e11de12b4568944f633a7a3b630d.jpg, b17637fa137fabf8afe8f6d60826713e.jpg
+
+1. NO EMPTY LAWNS. Many lawn beds / large parts of beds were left bare (courtyard corners, beds between blocks, triangles by facades, beds around playgrounds, long strips). "Open lawn room" logic produced far too much emptiness. Every lawn bed must be planted by design; open lawn only as a small deliberate glade inside large parks, never a whole bed. Target canopy+shrub coverage of lawn ≥ 60–70 % in courtyards.
+2. BUG: long strips are planted in some parts and skipped in others (22-19-37 red strip along the building). Find and fix why beds/segments get skipped (fragment roll-back, clearance rejections, classifier gaps, etc.). Also check stage-1 wide road verges / medians (22-26-04 red area along the highway) — plant them if they are lawn.
+3. NEVER one model repeated. Rows (streets, avenues, paths) and groups must mix 3–4 compatible species of similar form, each instance rotated randomly (yaw 0–360) and scaled with small variation (±8–15 %). One model in a straight row = forbidden. This applies to trees and shrubs everywhere.
+4. Near buildings / playgrounds / paths does NOT mean empty, shrubs-only, sparse or small trees. Plant by composition: e.g. the two playgrounds in one courtyard must get a consistent, designed treatment (not one bare and one ringed with trees). Shade around playgrounds, trees framing paths, planting at facades where space allows.
+5. SHRUBS: use ALL shrub/small models in /Game/SHABLON/MODEL/DARAXT except lawn/grass models (Calamagrostis). Only one boxwood type looked ugly. Place shrubs as tight combinations of 2–4 different species hugging tree bases and around trees (see the two new references: shrubs under/around tree trunks, layered), plus drifts along bed edges — not lone balls scattered on lawn.
+6. Use the full model library (all trees and shrubs that passed the palette audit), not a narrow subset. Avoid only: models with missing materials (Ash_tree_02, MWLW lindens), permanently-yellow Autumn_hornbeam_02_01, bare sakura 0301/0303, sapling dub 3 m / dub_4m_03, Silver_Birch_03, Calamagrostis.
+7. Performance still matters: prefer fewer, larger, well-composed plants over tens of thousands of tiny ones.

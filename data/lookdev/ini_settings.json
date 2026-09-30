@@ -1,0 +1,16 @@
+{
+ "_comment": "Config/DefaultEngine.ini lines of the validated Zaliniy state (2026-09-30). offline/update_ini.py sets each key in its section (replaces an existing key=value line anywhere in that section, otherwise appends it) after a dated backup. Editor must be CLOSED; restart afterwards.",
+ "base": [
+  {"section": "/Script/Engine.RendererSettings", "key": "r.Tonemapper.Sharpen", "value": "1", "why": "2 over-sharpened leaves (halo); 1 keeps crispness"},
+  {"section": "SystemSettings", "key": "r.Nanite.Streaming.StreamingPoolSize", "value": "1536", "why": "1024 MB pool filled up and Nanite silently lowered tree quality. NEVER 2048 - it asserts (pool must stay below the max GPU allocation)"},
+  {"section": "SystemSettings", "key": "r.Nanite.Streaming.QualityScale.MinQuality", "value": "1.0", "why": "ROOT CAUSE of distant trees degrading over time: the streamer scaled quality down to 0.3 when the pool was >85 % full; 1.0 forbids the downscale"},
+  {"section": "SystemSettings", "key": "r.ScreenPercentage", "value": "100", "why": "was 75: sub-pixel leaves were shaded at 75 % and fell apart at distance"},
+  {"section": "SystemSettings", "key": "r.TSR.ThinGeometryDetection", "value": "1", "why": "less TSR sparkle/ghosting on thin leaves and branches"},
+  {"section": "SystemSettings", "key": "r.Lumen.ScreenProbeGather.ShortRangeAO.FoliageOcclusionStrength", "value": "1.0", "why": "depth inside shaded canopies (lower values made crowns flat)"}
+ ],
+ "high_tier": [
+  {"section": "SystemSettings", "key": "r.RayTracing.Enable", "value": "1", "why": "HW ray tracing on (only GPUs with >= 12 GB VRAM, e.g. RTX 3090/4070 Ti+). Default project keeps 0 + EnableOnDemand=1"},
+  {"section": "SystemSettings", "key": "r.Lumen.HardwareRayTracing", "value": "1", "why": "HWRT Lumen: closest to path tracing GI. Note: canopies darken slowly (tens of seconds) while Lumen converges - judge only after settling"}
+ ],
+ "runtime_profile_note": "The project applies tiers at runtime with Scripts/profile_lumen.py (console: py \"<Project>/Scripts/profile_lumen.py\"); on Zaliniy it contains r.RayTracing.Enable 1, r.Lumen.HardwareRayTracing 1 and r.Lumen.ScreenProbeGather.ShortRangeAO.FoliageOcclusionStrength 1.0 (backup profile_lumen.py.bak_20260930)."
+}

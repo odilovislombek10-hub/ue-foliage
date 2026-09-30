@@ -1,0 +1,7992 @@
+{
+"/Game/SHABLON/MODEL/DARAXT/18m_Terak_01": {
+"path": "/Game/SHABLON/MODEL/DARAXT/18m_Terak_01",
+"lods": 1,
+"tris": [
+1339298
+],
+"verts": [
+1506544
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+5.01,
+5.07,
+18.43
+],
+"min_cm": [
+-271,
+-262,
+-2
+],
+"max_cm": [
+229,
+245,
+1840
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "M_Populus_pyramidalis_05",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_05",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Anelanchier_03",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_03",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_01",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_01",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_02",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_02",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_03",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_03",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_05",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_05",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Poplar_pyramidal_branch",
+"Poplar_pyramidal_petiole",
+"Poplar_pyramidal_leaves_1",
+"Poplar_pyramidal_leaves_2",
+"Poplar_pyramidal_leaves_3",
+"Poplar_pyramidal_trunk"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/18m_Terak_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/18m_Terak_02",
+"lods": 1,
+"tris": [
+1550901
+],
+"verts": [
+1745827
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+5.24,
+5.28,
+19.66
+],
+"min_cm": [
+-249,
+-281,
+-14
+],
+"max_cm": [
+275,
+247,
+1952
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "M_Populus_pyramidalis_05",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_05",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Anelanchier_03",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_03",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_01",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_01",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_02",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_02",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_03",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_03",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_05",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_05",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Poplar_pyramidal_branch",
+"Poplar_pyramidal_petiole",
+"Poplar_pyramidal_leaves_1",
+"Poplar_pyramidal_leaves_2",
+"Poplar_pyramidal_leaves_3",
+"Poplar_pyramidal_trunk"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/3m_Irga_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/3m_Irga_02",
+"lods": 1,
+"tris": [
+1384886
+],
+"verts": [
+1220955
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+4.31,
+3.91,
+4.15
+],
+"min_cm": [
+-216,
+-209,
+-3
+],
+"max_cm": [
+215,
+182,
+411
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "M_Trunk_01",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Trunk_01",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Anelanchier_03",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_03",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Anelanchier_01",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_01",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Anelanchier_01",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_01",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark",
+"Stem",
+"Leaf",
+"Flower"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Ash-tree_0202_15_5m_": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Ash-tree_0202_15_5m_",
+"lods": 1,
+"tris": [
+2046049
+],
+"verts": [
+2131591
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+11.8,
+9.78,
+15.48
+],
+"min_cm": [
+-431,
+-403,
+-2
+],
+"max_cm": [
+749,
+574,
+1546
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 7,
+"mats": [
+{
+"name": "Oak_01",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Oak_01",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Oak_01",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Oak_01",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Philotheca_Myoporoides_Leaf",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Philotheca_Myoporoides_Leaf",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Reed",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_00",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_00",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_00",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_00",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark01",
+"Bark02",
+"Stem",
+"Leaf",
+"Leaf02",
+"Leaf03",
+"Leaf04"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Ash-tree_05_21_2m_": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Ash-tree_05_21_2m_",
+"lods": 1,
+"tris": [
+2384278
+],
+"verts": [
+2447349
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+13.68,
+13.15,
+21.46
+],
+"min_cm": [
+-745,
+-497,
+-2
+],
+"max_cm": [
+624,
+817,
+2144
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 7,
+"mats": [
+{
+"name": "Oak_01",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Oak_01",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Oak_01",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Oak_01",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Philotheca_Myoporoides_Leaf",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Philotheca_Myoporoides_Leaf",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Reed",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_00",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_00",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_00",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_00",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark01",
+"Bark02",
+"Stem",
+"Leaf",
+"Leaf02",
+"Leaf03",
+"Leaf04"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Ash_tree": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Ash_tree",
+"lods": 1,
+"tris": [
+1765023
+],
+"verts": [
+1553652
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+7.18,
+8.09,
+10.07
+],
+"min_cm": [
+-305,
+-380,
+-3
+],
+"max_cm": [
+413,
+429,
+1005
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "Bark_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/Bark_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/Bark_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "green_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/green_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/green_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ash_tree_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/Ash_tree_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/Ash_tree_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark_Branch_Mat",
+"green_Branch_Mat",
+"Ash_tree_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Ash_tree_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Ash_tree_02",
+"lods": 1,
+"tris": [
+10258578
+],
+"verts": [
+7195951
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+10.38,
+9.74,
+13.06
+],
+"min_cm": [
+-571,
+-499,
+-101
+],
+"max_cm": [
+466,
+474,
+1205
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+null,
+null,
+{
+"name": "Ash_tree_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Ash_tree_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Ash_tree_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark_Branch_Mat",
+"green_Branch_Mat",
+"Ash_tree_02_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/dub": {
+"path": "/Game/SHABLON/MODEL/DARAXT/dub",
+"lods": 1,
+"tris": [
+80059
+],
+"verts": [
+53576
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.39,
+1.58,
+3.05
+],
+"min_cm": [
+-50,
+-72,
+-1
+],
+"max_cm": [
+90,
+87,
+304
+],
+"uvch": 8,
+"lm_res": 128,
+"lm_uv": 1,
+"simple_coll": 3,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "dub_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"dub_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/dub_4m_01": {
+"path": "/Game/SHABLON/MODEL/DARAXT/dub_4m_01",
+"lods": 1,
+"tris": [
+232862
+],
+"verts": [
+154312
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.11,
+2.01,
+4.04
+],
+"min_cm": [
+-105,
+-108,
+0
+],
+"max_cm": [
+106,
+93,
+404
+],
+"uvch": 8,
+"lm_res": 128,
+"lm_uv": 1,
+"simple_coll": 3,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "dub_4m_01_Leaf_Mat_Inst",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_01_Leaf_Mat_Inst",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_01_Leaf_Mat",
+"blend": "BLEND_MASKED*",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"dub_4m_01_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/dub_4m_03": {
+"path": "/Game/SHABLON/MODEL/DARAXT/dub_4m_03",
+"lods": 1,
+"tris": [
+164796
+],
+"verts": [
+109647
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.87,
+1.88,
+4.28
+],
+"min_cm": [
+-94,
+-94,
+-3
+],
+"max_cm": [
+93,
+94,
+425
+],
+"uvch": 8,
+"lm_res": 128,
+"lm_uv": 1,
+"simple_coll": 4,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "dub_4m_03_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"dub_4m_03_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/yangi/Autumn_hornbeam_02_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/Autumn_hornbeam_02_02",
+"lods": 1,
+"tris": [
+1169116
+],
+"verts": [
+1212937
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+11.74,
+11.19,
+14.54
+],
+"min_cm": [
+-587,
+-559,
+0
+],
+"max_cm": [
+587,
+559,
+1454
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "MI_Trunk",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Trunk",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Branches",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Branches",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Twigs",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Twigs",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_1a",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Leaf_1a",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Foliage",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2a",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Leaf_2a",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Foliage",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_3a",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Leaf_3a",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Foliage",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Trunk",
+"Branches",
+"Twigs",
+"Leaf_1a",
+"Leaf_2a",
+"Leaf_3a"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/yangi/Autumn_hornbeam_02_01": {
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/Autumn_hornbeam_02_01",
+"lods": 1,
+"tris": [
+1252317
+],
+"verts": [
+1360269
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+10.17,
+11.73,
+16.31
+],
+"min_cm": [
+-509,
+-586,
+0
+],
+"max_cm": [
+509,
+586,
+1631
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "MI_Trunk",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Trunk",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Branches",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Branches",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Twigs",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Twigs",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_1",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Leaf_1",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Foliage",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Leaf_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Foliage",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_3",
+"path": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Leaf_3",
+"base": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Foliage",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Trunk",
+"Branches",
+"Twigs",
+"Leaf_1",
+"Leaf_2",
+"Leaf_3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-10": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-10",
+"lods": 1,
+"tris": [
+1000
+],
+"verts": [
+618
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.29,
+0.23,
+0.02
+],
+"min_cm": [
+-15,
+-12,
+0
+],
+"max_cm": [
+15,
+12,
+2
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-09": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-09",
+"lods": 1,
+"tris": [
+476
+],
+"verts": [
+338
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.51,
+0.34,
+0.02
+],
+"min_cm": [
+-26,
+-17,
+0
+],
+"max_cm": [
+26,
+17,
+2
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-08": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-08",
+"lods": 1,
+"tris": [
+2324
+],
+"verts": [
+1425
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.44,
+0.6,
+0.03
+],
+"min_cm": [
+-22,
+-30,
+0
+],
+"max_cm": [
+22,
+30,
+3
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-07": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-07",
+"lods": 1,
+"tris": [
+876
+],
+"verts": [
+545
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.27,
+0.49,
+0.02
+],
+"min_cm": [
+-13,
+-24,
+0
+],
+"max_cm": [
+13,
+24,
+2
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-06": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-06",
+"lods": 1,
+"tris": [
+1716
+],
+"verts": [
+1055
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.35,
+0.41,
+0.04
+],
+"min_cm": [
+-17,
+-21,
+0
+],
+"max_cm": [
+17,
+21,
+3
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-05": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-05",
+"lods": 1,
+"tris": [
+866
+],
+"verts": [
+514
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.26,
+0.26,
+0.02
+],
+"min_cm": [
+-13,
+-13,
+0
+],
+"max_cm": [
+13,
+13,
+2
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-04": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-04",
+"lods": 1,
+"tris": [
+714
+],
+"verts": [
+431
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.31,
+0.25,
+0.02
+],
+"min_cm": [
+-15,
+-12,
+0
+],
+"max_cm": [
+15,
+12,
+2
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-03": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-03",
+"lods": 1,
+"tris": [
+1152
+],
+"verts": [
+706
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.34,
+0.47,
+0.02
+],
+"min_cm": [
+-17,
+-23,
+0
+],
+"max_cm": [
+17,
+24,
+2
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-02",
+"lods": 1,
+"tris": [
+454
+],
+"verts": [
+314
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.35,
+0.35,
+0.02
+],
+"min_cm": [
+-18,
+-17,
+0
+],
+"max_cm": [
+18,
+17,
+2
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-01": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Leaf/_forest_library_74E45WA__fp_L-GS-1g-clean_L-GS-1g-01",
+"lods": 1,
+"tris": [
+862
+],
+"verts": [
+527
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.22,
+0.53,
+0.02
+],
+"min_cm": [
+-11,
+-27,
+0
+],
+"max_cm": [
+11,
+27,
+2
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "forest_library_01",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/ForestPack/Material/forest_library_01",
+"base": "/Game/Statik_tree/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #25"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/sakura/Cherry_flowering_0303_Cerasus_": {
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Cherry_flowering_0303_Cerasus_",
+"lods": 1,
+"tris": [
+1108970
+],
+"verts": [
+1233751
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.93,
+2.92,
+4.21
+],
+"min_cm": [
+-119,
+-135,
+0
+],
+"max_cm": [
+174,
+157,
+421
+],
+"uvch": 2,
+"lm_res": 512,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "Bark_04_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark_04_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Bark03",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark03",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Bark02",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark02",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Leaf01",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Leaf01",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Leaf01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Petal",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Petal",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Petal",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Stem",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Stem",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Stem",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"8",
+"6",
+"2",
+"5",
+"3",
+"4"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/sakura/Cherry_flowering_0302_Cerasus_": {
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Cherry_flowering_0302_Cerasus_",
+"lods": 1,
+"tris": [
+1375685
+],
+"verts": [
+1511041
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+3.97,
+3.38,
+4.75
+],
+"min_cm": [
+-166,
+-179,
+-3
+],
+"max_cm": [
+231,
+159,
+472
+],
+"uvch": 2,
+"lm_res": 512,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "Bark_04",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark_04",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Bark03_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark03_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Bark02_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark02_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Leaf01_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Leaf01_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Leaf01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Petal_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Petal_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Petal",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Stem_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Stem_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Stem",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"7",
+"6",
+"2",
+"5",
+"3",
+"4"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/sakura/Cherry_flowering_0301_Cerasus_": {
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Cherry_flowering_0301_Cerasus_",
+"lods": 1,
+"tris": [
+1167951
+],
+"verts": [
+1298094
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+3.45,
+3.43,
+5.22
+],
+"min_cm": [
+-138,
+-132,
+-1
+],
+"max_cm": [
+208,
+210,
+521
+],
+"uvch": 2,
+"lm_res": 512,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "Bark01",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark01",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Bark03",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark03",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Bark02",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark02",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Leaf01",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Leaf01",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Leaf01",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Stem",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Stem",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Stem",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Petal",
+"path": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Petal",
+"base": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Petal",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"1",
+"6",
+"2",
+"5",
+"4",
+"3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/archa/pine_650cm": {
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/pine_650cm",
+"lods": 1,
+"tris": [
+1291045
+],
+"verts": [
+1347877
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+7.31,
+7.47,
+7.95
+],
+"min_cm": [
+-391,
+-389,
+-50
+],
+"max_cm": [
+340,
+357,
+745
+],
+"uvch": 2,
+"lm_res": 512,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 5,
+"mats": [
+{
+"name": "Bark",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/Bark",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/Bark",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "Material__192",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/Material__192",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/Material__192",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "needle_3_short_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/needle_3_short_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/needle_3_short",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "needle_3_short",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/needle_3_short",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/needle_3_short",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "needle_end_2_",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/needle_end_2_",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/needle_3_short",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"1",
+"6",
+"4",
+"3",
+"5"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/archa/pine_550cm": {
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/pine_550cm",
+"lods": 1,
+"tris": [
+792764
+],
+"verts": [
+815148
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+6.31,
+5.83,
+6.57
+],
+"min_cm": [
+-315,
+-281,
+-28
+],
+"max_cm": [
+316,
+302,
+629
+],
+"uvch": 2,
+"lm_res": 512,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 5,
+"mats": [
+{
+"name": "Bark",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/Bark",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/Bark",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "Material__192",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/Material__192",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/Material__192",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "needle_3_short",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/needle_3_short",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/needle_3_short",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "needle_3_short_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/needle_3_short_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/needle_3_short",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "needle_end_2_",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/needle_end_2_",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/needle_3_short",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"1",
+"6",
+"3",
+"4",
+"5"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/archa/pine_450cm": {
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/pine_450cm",
+"lods": 1,
+"tris": [
+589726
+],
+"verts": [
+654450
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+5.53,
+5.4,
+7.19
+],
+"min_cm": [
+-268,
+-257,
+-151
+],
+"max_cm": [
+286,
+282,
+568
+],
+"uvch": 2,
+"lm_res": 512,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 5,
+"mats": [
+{
+"name": "Bark",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/Bark",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/Bark",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "Material__192",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/Material__192",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/Material__192",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "needle_3_short_2",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/needle_3_short_2",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/needle_3_short",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "needle_3_short",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/needle_3_short",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/needle_3_short",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "needle_end_2_",
+"path": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/needle_end_2_",
+"base": "/Game/SHABLON/MODEL/DARAXT/archa/Materials/References/needle_3_short",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"1",
+"6",
+"4",
+"3",
+"5"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/TSH-Tree002": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/TSH-Tree002",
+"lods": 1,
+"tris": [
+2223962
+],
+"verts": [
+1486137
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.12,
+1.15,
+1.46
+],
+"min_cm": [
+-56,
+-57,
+0
+],
+"max_cm": [
+56,
+57,
+146
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 5,
+"mats": [
+{
+"name": "MI_Taiwa_Bark_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Bark_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Taiwa_Cap_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Cap_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Taiwa_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Taiwa_Leaf_v2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Leaf_v2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Taiwa_Leaf_v3_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Leaf_v3_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Taiwa_Bark_Mat",
+"Taiwa_Cap_Mat",
+"Taiwa_Leaf_Mat",
+"Taiwa_Leaf_v2_Mat",
+"Taiwa_Leaf_v3_Mat"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/TSH-Tree001": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/TSH-Tree001",
+"lods": 1,
+"tris": [
+3413892
+],
+"verts": [
+2282632
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.47,
+1.37,
+1.99
+],
+"min_cm": [
+-73,
+-69,
+0
+],
+"max_cm": [
+73,
+69,
+199
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 5,
+"mats": [
+{
+"name": "MI_Taiwa_Bark_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Bark_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Taiwa_Cap_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Cap_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Taiwa_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Taiwa_Leaf_v2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Leaf_v2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Taiwa_Leaf_v3_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Leaf_v3_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Taiwa_Bark_Mat",
+"Taiwa_Cap_Mat",
+"Taiwa_Leaf_Mat",
+"Taiwa_Leaf_v2_Mat",
+"Taiwa_Leaf_v3_Mat"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Spirea_japonica_1": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Spirea_japonica_1",
+"lods": 1,
+"tris": [
+1187795
+],
+"verts": [
+1406894
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.92,
+0.91,
+0.5
+],
+"min_cm": [
+-46,
+-45,
+0
+],
+"max_cm": [
+46,
+45,
+50
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 5,
+"mats": [
+{
+"name": "MI_MT_PM_V66_Spiraea_japonica_01_Stem_01",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_MT_PM_V66_Spiraea_japonica_01_Stem_01",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_MT_PM_V66_Spiraea_japonica_01_Leaf_01",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_MT_PM_V66_Spiraea_japonica_01_Leaf_01",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_MT_PM_V66_Spiraea_japonica_01_Petiole_01",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_MT_PM_V66_Spiraea_japonica_01_Petiole_01",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_MT_PM_V66_Spiraea_japonica_01_Flower_01",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_MT_PM_V66_Spiraea_japonica_01_Flower_01",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_MT_PM_V66_Spiraea_japonica_01_Stamen_01",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_MT_PM_V66_Spiraea_japonica_01_Stamen_01",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"MT_PM_V66_Spiraea_japonica_01_Stem_01",
+"MT_PM_V66_Spiraea_japonica_01_Leaf_01",
+"MT_PM_V66_Spiraea_japonica_01_Petiole_01",
+"MT_PM_V66_Spiraea_japonica_01_Flower_01",
+"MT_PM_V66_Spiraea_japonica_01_Stamen_01"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/plant": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/plant",
+"lods": 1,
+"tris": [
+159881
+],
+"verts": [
+159069
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.09,
+1.13,
+0.87
+],
+"min_cm": [
+-55,
+-56,
+0
+],
+"max_cm": [
+55,
+56,
+87
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "MI_TrunkStalk_1_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_TrunkStalk_1_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_Front_7_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_Front_7_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"TrunkStalk_1_Mat",
+"Leaf_Front_7_Mat"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Montra_Olive_Tree_Version7_2": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Montra_Olive_Tree_Version7_2",
+"lods": 1,
+"tris": [
+271368
+],
+"verts": [
+333105
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.86,
+0.89,
+0.93
+],
+"min_cm": [
+-43,
+-44,
+0
+],
+"max_cm": [
+43,
+44,
+93
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Montra_Olive_Tree_Version7_1_ID1",
+"Pandora_Land_Montra_Olive_Tree_Version7_1_ID2",
+"Pandora_Land_Montra_Olive_Tree_Version7_1_ID3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Montra_Olive_Tree_Version7_1": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Montra_Olive_Tree_Version7_1",
+"lods": 1,
+"tris": [
+219867
+],
+"verts": [
+292983
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.79,
+0.8,
+0.45
+],
+"min_cm": [
+-39,
+-40,
+0
+],
+"max_cm": [
+39,
+40,
+45
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Montra_Olive_Tree_Version7_1_ID1",
+"Pandora_Land_Montra_Olive_Tree_Version7_1_ID2",
+"Pandora_Land_Montra_Olive_Tree_Version7_1_ID3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04",
+"lods": 1,
+"tris": [
+324538
+],
+"verts": [
+328641
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.14,
+1.15,
+0.63
+],
+"min_cm": [
+-57,
+-58,
+0
+],
+"max_cm": [
+57,
+58,
+63
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID4",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID4",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID5",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID5",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID6",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID6",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID1",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID3",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID4",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID5",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID6",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID3_Section1"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03",
+"lods": 1,
+"tris": [
+244423
+],
+"verts": [
+247249
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.16,
+1.17,
+0.76
+],
+"min_cm": [
+-58,
+-59,
+0
+],
+"max_cm": [
+58,
+59,
+76
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID4",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID4",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID5",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID5",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID6",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID6",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID1",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID3",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID4",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID5",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID6",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID3_Section1"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02",
+"lods": 1,
+"tris": [
+220841
+],
+"verts": [
+224483
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.2,
+1.09,
+0.66
+],
+"min_cm": [
+-60,
+-55,
+0
+],
+"max_cm": [
+60,
+55,
+66
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 6,
+"mats": [
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID4",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID4",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID5",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID5",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID6",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID6",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID1",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID3",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID4",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID5",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID6",
+"Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID3_Section1"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/LAVANDA": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/LAVANDA",
+"lods": 1,
+"tris": [
+786218
+],
+"verts": [
+702605
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.55,
+0.47,
+0.8
+],
+"min_cm": [
+-28,
+-23,
+0
+],
+"max_cm": [
+28,
+23,
+80
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "MI_MT_PM_V66_Perovskia_atriplicifolia_01_Stem_01",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_MT_PM_V66_Perovskia_atriplicifolia_01_Stem_01",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_MT_PM_V66_Perovskia_atriplicifolia_01_Leaf_01",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_MT_PM_V66_Perovskia_atriplicifolia_01_Leaf_01",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_MT_PM_V66_Perovskia_atriplicifolia_01_Stalk_01",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_MT_PM_V66_Perovskia_atriplicifolia_01_Stalk_01",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_MT_PM_V66_Perovskia_atriplicifolia_01_Flower_01",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_MT_PM_V66_Perovskia_atriplicifolia_01_Flower_01",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"MT_PM_V66_Perovskia_atriplicifolia_01_Stem_01",
+"MT_PM_V66_Perovskia_atriplicifolia_01_Leaf_01",
+"MT_PM_V66_Perovskia_atriplicifolia_01_Stalk_01",
+"MT_PM_V66_Perovskia_atriplicifolia_01_Flower_01"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/ivy": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/ivy",
+"lods": 1,
+"tris": [
+181356
+],
+"verts": [
+134550
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.59,
+2.04,
+0.41
+],
+"min_cm": [
+-80,
+-102,
+0
+],
+"max_cm": [
+80,
+102,
+41
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "MI_leaf_creeping_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_leaf_creeping_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Sycamore_bark_rough_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Sycamore_bark_rough_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"leaf_creeping_Mat",
+"Sycamore_bark_rough_Mat"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Hach-Pine-tall002": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Hach-Pine-tall002",
+"lods": 1,
+"tris": [
+442126
+],
+"verts": [
+701558
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.27,
+1.23,
+2.89
+],
+"min_cm": [
+-63,
+-62,
+0
+],
+"max_cm": [
+63,
+62,
+289
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 14,
+"mats": [
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Bark_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Bark_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Bark_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Bark_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"FicusBenjamina_leaf_01_diffuse_Copy_Mat",
+"Bark_Mat",
+"FicusBenjamina_leaf_01_diffuse_Mat",
+"FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat",
+"FicusBenjamina_leaf_01_diffuse_Copy_Mat_ncl_1",
+"FicusBenjamina_leaf_01_diffuse_Copy_Mat_Section1",
+"FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat_Section1",
+"FicusBenjamina_leaf_01_diffuse_Copy_Mat_ncl_1_Section1",
+"FicusBenjamina_leaf_01_diffuse_Copy_Mat_Section2",
+"FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat_Section2",
+"FicusBenjamina_leaf_01_diffuse_Copy_Mat_Section3",
+"FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat_Section3",
+"FicusBenjamina_leaf_01_diffuse_Copy_Mat_ncl_1_Section2",
+"Bark_Mat_Section1"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_4": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_4",
+"lods": 1,
+"tris": [
+285750
+],
+"verts": [
+302929
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.6,
+0.6,
+0.41
+],
+"min_cm": [
+-30,
+-30,
+0
+],
+"max_cm": [
+30,
+30,
+41
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID4",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID4",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID1",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID2",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID3",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID4"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2",
+"lods": 1,
+"tris": [
+351742
+],
+"verts": [
+372398
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.57,
+0.57,
+0.59
+],
+"min_cm": [
+-29,
+-28,
+0
+],
+"max_cm": [
+29,
+28,
+59
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID4",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID4",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID1",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID2",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID3",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID4"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower05": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower05",
+"lods": 1,
+"tris": [
+228738
+],
+"verts": [
+239447
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.67,
+0.68,
+0.35
+],
+"min_cm": [
+-33,
+-34,
+0
+],
+"max_cm": [
+33,
+34,
+35
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID4",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID4",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID1",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID2",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID3",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID4"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04",
+"lods": 1,
+"tris": [
+302001
+],
+"verts": [
+315526
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.82,
+0.81,
+0.4
+],
+"min_cm": [
+-41,
+-41,
+0
+],
+"max_cm": [
+41,
+41,
+40
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID4",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID4",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID1",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID2",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID3",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID4"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary05_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary05_02",
+"lods": 1,
+"tris": [
+260791
+],
+"verts": [
+269740
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.02,
+1.13,
+0.56
+],
+"min_cm": [
+-51,
+-57,
+0
+],
+"max_cm": [
+51,
+57,
+56
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary05": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary05",
+"lods": 1,
+"tris": [
+260791
+],
+"verts": [
+269738
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.93,
+1.14,
+0.52
+],
+"min_cm": [
+-46,
+-57,
+0
+],
+"max_cm": [
+46,
+57,
+52
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_02",
+"lods": 1,
+"tris": [
+331368
+],
+"verts": [
+342798
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.1,
+1.12,
+0.64
+],
+"min_cm": [
+-55,
+-56,
+0
+],
+"max_cm": [
+55,
+56,
+64
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04",
+"lods": 1,
+"tris": [
+331368
+],
+"verts": [
+342792
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.03,
+1.04,
+0.59
+],
+"min_cm": [
+-51,
+-52,
+0
+],
+"max_cm": [
+51,
+52,
+59
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Grey_Box_Westringia_Fruticosa_Coastal_Rosemary",
+"lods": 1,
+"tris": [
+208321
+],
+"verts": [
+215635
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.89,
+0.91,
+0.58
+],
+"min_cm": [
+-44,
+-46,
+0
+],
+"max_cm": [
+44,
+46,
+58
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID1",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID2",
+"Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/crp_MT_PM_Nerium_Oleander_01_020": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/crp_MT_PM_Nerium_Oleander_01_020",
+"lods": 1,
+"tris": [
+154393
+],
+"verts": [
+175202
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.54,
+1.57,
+1.41
+],
+"min_cm": [
+-77,
+-79,
+0
+],
+"max_cm": [
+77,
+79,
+141
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "MI_Leaf",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Leaf",
+"Leaf_Section1",
+"Leaf_Section2",
+"Leaf_Section3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy26394": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy26394",
+"lods": 1,
+"tris": [
+204641
+],
+"verts": [
+490042
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.96,
+1.0,
+0.79
+],
+"min_cm": [
+-48,
+-50,
+0
+],
+"max_cm": [
+48,
+50,
+79
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "MI_RH_Estate_Footed_Buxus_Trunk",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_RH_Estate_Footed_Buxus_Trunk",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_RH_Estate_Footed_Buxus_Leaves_1_Front",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_RH_Estate_Footed_Buxus_Leaves_1_Front",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"RH_Estate_Footed_Buxus_Trunk",
+"RH_Estate_Footed_Buxus_Leaves_1_Front"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy26313": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy26313",
+"lods": 1,
+"tris": [
+786074
+],
+"verts": [
+996706
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.74,
+1.66,
+0.6
+],
+"min_cm": [
+-37,
+-83,
+0
+],
+"max_cm": [
+37,
+83,
+60
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 1,
+"mats": [
+{
+"name": "MI_Material_2147483630",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_2147483630",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material__-2147483630"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy24578": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy24578",
+"lods": 1,
+"tris": [
+3797854
+],
+"verts": [
+4153338
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.39,
+1.39,
+0.63
+],
+"min_cm": [
+-19,
+-69,
+0
+],
+"max_cm": [
+19,
+69,
+63
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Material_92",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_92",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leavs",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leavs",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Material_92",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_92",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material__92",
+"Leavs",
+"Material__92_ncl_1"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy22788": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy22788",
+"lods": 1,
+"tris": [
+204639
+],
+"verts": [
+451139
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.96,
+1.0,
+0.79
+],
+"min_cm": [
+-48,
+-50,
+0
+],
+"max_cm": [
+48,
+50,
+79
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "MI_RH_Estate_Footed_Buxus_Trunk",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_RH_Estate_Footed_Buxus_Trunk",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_RH_Estate_Footed_Buxus_Leaves_1_Front",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_RH_Estate_Footed_Buxus_Leaves_1_Front",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"RH_Estate_Footed_Buxus_Trunk",
+"RH_Estate_Footed_Buxus_Leaves_1_Front"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy137": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy137",
+"lods": 1,
+"tris": [
+886169
+],
+"verts": [
+831865
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+3.53,
+3.8,
+4.46
+],
+"min_cm": [
+-176,
+-190,
+0
+],
+"max_cm": [
+176,
+190,
+446
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "MI_Material_2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Material_3_Mat_2Sided",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_3_Mat_2Sided",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material_2_Mat",
+"Material_3_Mat_2Sided"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy072": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy072",
+"lods": 1,
+"tris": [
+86640
+],
+"verts": [
+86030
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.63,
+0.6,
+0.47
+],
+"min_cm": [
+-32,
+-30,
+0
+],
+"max_cm": [
+32,
+30,
+47
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "MI_Plant_nn21",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn21",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Plant_nn22",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn22",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Plant_nn21",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn21",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Plant_nn22",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn22",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Plant_nn21",
+"Plant_nn22",
+"Plant_nn21_Section1",
+"Plant_nn22_Section1"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy071": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy071",
+"lods": 1,
+"tris": [
+86640
+],
+"verts": [
+86030
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.51,
+0.52,
+0.4
+],
+"min_cm": [
+-25,
+-26,
+0
+],
+"max_cm": [
+25,
+26,
+40
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "MI_Plant_nn21",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn21",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Plant_nn22",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn22",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Plant_nn21",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn21",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Plant_nn22",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn22",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Plant_nn21",
+"Plant_nn22",
+"Plant_nn21_Section1",
+"Plant_nn22_Section1"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Collection_outdoor_indoor_62_pot_plant___tree___bush___fern_the_garden_pot65": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Collection_outdoor_indoor_62_pot_plant___tree___bush___fern_the_garden_pot65",
+"lods": 1,
+"tris": [
+520007
+],
+"verts": [
+557373
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.85,
+2.23,
+3.0
+],
+"min_cm": [
+-142,
+-111,
+0
+],
+"max_cm": [
+142,
+111,
+300
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "MI_palnt",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_palnt",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_plant",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_plant",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"palnt",
+"plant"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Collection_outdoor_indoor_62_pot_plant___tree___bush___fern_the_garden_pot38": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Collection_outdoor_indoor_62_pot_plant___tree___bush___fern_the_garden_pot38",
+"lods": 1,
+"tris": [
+122811
+],
+"verts": [
+126761
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.05,
+0.78,
+0.92
+],
+"min_cm": [
+-53,
+-39,
+0
+],
+"max_cm": [
+53,
+39,
+92
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "MI_Material_2145978116",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_2145978116",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Material_2145978193",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_2145978193",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material__2145978116",
+"Material__2145978193"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Calamagrostis_Acutiflora_Karl_Foerster_V3_Windy03": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Calamagrostis_Acutiflora_Karl_Foerster_V3_Windy03",
+"lods": 1,
+"tris": [
+526097
+],
+"verts": [
+865328
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.69,
+1.04,
+0.98
+],
+"min_cm": [
+-35,
+-52,
+0
+],
+"max_cm": [
+35,
+52,
+98
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Material_256",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_256",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Material_255",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_255",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Material_254",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_254",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material__256",
+"Material__255",
+"Material__254"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Calamagrostis_Acutiflora_Karl_Foerster_V3_Windy02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Calamagrostis_Acutiflora_Karl_Foerster_V3_Windy02",
+"lods": 1,
+"tris": [
+509399
+],
+"verts": [
+815178
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.69,
+0.94,
+1.2
+],
+"min_cm": [
+-35,
+-47,
+0
+],
+"max_cm": [
+35,
+47,
+120
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Material_256",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_256",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Material_255",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_255",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Material_254",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_254",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material__256",
+"Material__255",
+"Material__254"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Calamagrostis_Acutiflora_Karl_Foerster_V3_Windy": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Calamagrostis_Acutiflora_Karl_Foerster_V3_Windy",
+"lods": 1,
+"tris": [
+423375
+],
+"verts": [
+666014
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+0.54,
+1.01,
+1.48
+],
+"min_cm": [
+-27,
+-50,
+0
+],
+"max_cm": [
+27,
+50,
+148
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "MI_Material_256",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_256",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Material_255",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_255",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Material_254",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Material_254",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material__256",
+"Material__255",
+"Material__254"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Big-Needle004": {
+"path": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Big-Needle004",
+"lods": 1,
+"tris": [
+1621084
+],
+"verts": [
+1096622
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.39,
+1.43,
+2.21
+],
+"min_cm": [
+-70,
+-72,
+0
+],
+"max_cm": [
+70,
+72,
+221
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 18,
+"mats": [
+{
+"name": "MI_TrunkStalk_1_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_TrunkStalk_1_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_1_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_1_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_1a_v2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_1a_v2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2_v2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_2_v2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2_v4_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_2_v4_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_1_v4_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_1_v4_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2a_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_2a_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2_v3_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_2_v3_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_1_v2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_1_v2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_TrunkStalk_1_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_TrunkStalk_1_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+"blend": "BLEND_OPAQUE",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_1_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_1_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_1a_v2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_1a_v2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2_v2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_2_v2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2a_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_2a_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2_v2_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_2_v2_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_1_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_1_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+},
+{
+"name": "MI_Leaf_2a_Mat",
+"path": "/Game/SHABLON/MODEL/export/mtl/MI_Leaf_2a_Mat",
+"base": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": false,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"TrunkStalk_1_Mat",
+"Leaf_1_Mat",
+"Leaf_2_Mat",
+"Leaf_1a_v2_Mat",
+"Leaf_2_v2_Mat",
+"Leaf_2_v4_Mat",
+"Leaf_1_v4_Mat",
+"Leaf_2a_Mat",
+"Leaf_2_v3_Mat",
+"Leaf_1_v2_Mat",
+"TrunkStalk_1_Mat_Section1",
+"Leaf_1_Mat_Section1",
+"Leaf_1a_v2_Mat_Section1",
+"Leaf_2_v2_Mat_Section1",
+"Leaf_2a_Mat_Section1",
+"Leaf_2_v2_Mat_Section2",
+"Leaf_1_Mat_Section2",
+"Leaf_2a_Mat_Section2"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/TRaCo-Tree005": {
+"path": "/Game/SHABLON/MODEL/DARAXT/TRaCo-Tree005",
+"lods": 1,
+"tris": [
+1711318
+],
+"verts": [
+1632287
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.72,
+1.65,
+2.34
+],
+"min_cm": [
+-74,
+-84,
+-1
+],
+"max_cm": [
+97,
+81,
+234
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "NEW_Tree3",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree3",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_Tree3",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree3",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_TREE_1_Inst3",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst3",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Taiwa_Bark_Mat",
+"Taiwa_Cap_Mat",
+"Taiwa_Leaf_Mat"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Small_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Small_02",
+"lods": 1,
+"tris": [
+281229
+],
+"verts": [
+182824
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.66,
+1.73,
+4.22
+],
+"min_cm": [
+-87,
+-90,
+-3
+],
+"max_cm": [
+79,
+83,
+420
+],
+"uvch": 8,
+"lm_res": 128,
+"lm_uv": 1,
+"simple_coll": 1,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Silver_Birch_Small_01_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Small_01_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Small_01_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"Silver_Birch_Small_02_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Small_01": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Small_01",
+"lods": 1,
+"tris": [
+183846
+],
+"verts": [
+119753
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.58,
+1.59,
+3.89
+],
+"min_cm": [
+-78,
+-82,
+-2
+],
+"max_cm": [
+79,
+77,
+387
+],
+"uvch": 8,
+"lm_res": 128,
+"lm_uv": 1,
+"simple_coll": 1,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Silver_Birch_Small_01_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Small_01_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Small_01_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"Silver_Birch_Small_01_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Medium_6m_03": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Medium_6m_03",
+"lods": 1,
+"tris": [
+408661
+],
+"verts": [
+265499
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.58,
+2.37,
+6.43
+],
+"min_cm": [
+-106,
+-116,
+-3
+],
+"max_cm": [
+153,
+121,
+641
+],
+"uvch": 8,
+"lm_res": 128,
+"lm_uv": 1,
+"simple_coll": 3,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Silver_Birch_Medium_6m_03_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Medium_6m_03_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Medium_6m_03_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"Silver_Birch_Medium_6m_03_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Medium_6m_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Medium_6m_02",
+"lods": 1,
+"tris": [
+366308
+],
+"verts": [
+237800
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.18,
+2.07,
+5.98
+],
+"min_cm": [
+-113,
+-103,
+-1
+],
+"max_cm": [
+105,
+104,
+597
+],
+"uvch": 8,
+"lm_res": 128,
+"lm_uv": 1,
+"simple_coll": 1,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Silver_Birch_Medium_6m_02_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Medium_6m_02_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Medium_6m_02_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"Silver_Birch_Medium_6m_02_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Medium_6m_01": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Medium_6m_01",
+"lods": 1,
+"tris": [
+370769
+],
+"verts": [
+240832
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.37,
+2.02,
+6.02
+],
+"min_cm": [
+-133,
+-105,
+0
+],
+"max_cm": [
+105,
+98,
+602
+],
+"uvch": 8,
+"lm_res": 128,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Small/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Small/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Silver_Birch_Medium_6m_01_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Small/Silver_Birch_Medium_6m_01_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Small/Silver_Birch_Medium_6m_01_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_SUBSURFACE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"Silver_Birch_Medium_6m_01_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Silver_Birch_03": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_03",
+"lods": 1,
+"tris": [
+2135591
+],
+"verts": [
+1568827
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+12.68,
+10.98,
+15.5
+],
+"min_cm": [
+-313,
+-630,
+-2
+],
+"max_cm": [
+955,
+468,
+1548
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 3,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Silver_Birch_03_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_03_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_03_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"Silver_Birch_03_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Silver_Birch_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_02",
+"lods": 1,
+"tris": [
+4969800
+],
+"verts": [
+3652326
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+11.8,
+20.48,
+16.82
+],
+"min_cm": [
+-538,
+-996,
+-11
+],
+"max_cm": [
+642,
+1052,
+1671
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 3,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Silver_Birch_02_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_02_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_02_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"Silver_Birch_02_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Sample_Broadleaf_Forest3": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Sample_Broadleaf_Forest3",
+"lods": 1,
+"tris": [
+774680
+],
+"verts": [
+984127
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+9.64,
+10.28,
+12.21
+],
+"min_cm": [
+-437,
+-543,
+-2
+],
+"max_cm": [
+527,
+486,
+1218
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Bark_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Bark_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Bark_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Sample_Broadleaf_Forest3_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Sample_Broadleaf_Forest3_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Sample_Broadleaf_Forest3_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark_Branch_Mat",
+"Sample_Broadleaf_Forest3_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Sample_Broadleaf_Forest2": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Sample_Broadleaf_Forest2",
+"lods": 1,
+"tris": [
+936103
+],
+"verts": [
+1068482
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+11.24,
+9.65,
+12.47
+],
+"min_cm": [
+-518,
+-432,
+-8
+],
+"max_cm": [
+607,
+533,
+1239
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "Bark_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Bark_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Bark_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Sample_Broadleaf_Forest2_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Sample_Broadleaf_Forest2_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Sample_Broadleaf_Forest2_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Sample_Broadleaf_Forest2_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Sample_Broadleaf_Forest2_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Sample_Broadleaf_Forest2_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark_Branch_Mat",
+"Sample_Broadleaf_Forest2_Branch_Mat",
+"Sample_Broadleaf_Forest2_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/N_Silver_Birch_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/N_Silver_Birch_02",
+"lods": 1,
+"tris": [
+4969800
+],
+"verts": [
+3652326
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+11.8,
+20.48,
+16.82
+],
+"min_cm": [
+-538,
+-996,
+-11
+],
+"max_cm": [
+642,
+1052,
+1671
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 3,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Silver_Birch_02_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_02_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_02_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"Silver_Birch_02_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/N_Sample_Broadleaf_Forest3": {
+"path": "/Game/SHABLON/MODEL/DARAXT/N_Sample_Broadleaf_Forest3",
+"lods": 1,
+"tris": [
+774680
+],
+"verts": [
+984127
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+8.79,
+8.38,
+11.46
+],
+"min_cm": [
+-396,
+-487,
+-2
+],
+"max_cm": [
+484,
+351,
+1144
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Bark_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Bark_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Bark_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Sample_Broadleaf_Forest3_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Sample_Broadleaf_Forest3_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Sample_Broadleaf_Forest3_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark_Branch_Mat",
+"Sample_Broadleaf_Forest3_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/N_Sample_Broadleaf_Forest2": {
+"path": "/Game/SHABLON/MODEL/DARAXT/N_Sample_Broadleaf_Forest2",
+"lods": 1,
+"tris": [
+936103
+],
+"verts": [
+1068482
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+11.24,
+9.65,
+12.47
+],
+"min_cm": [
+-518,
+-432,
+-8
+],
+"max_cm": [
+607,
+533,
+1239
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "Bark_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Bark_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Bark_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Sample_Broadleaf_Forest2_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Sample_Broadleaf_Forest2_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Sample_Broadleaf_Forest2_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Sample_Broadleaf_Forest2_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Sample_Broadleaf_Forest2_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Sample_Broadleaf_Forest2_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark_Branch_Mat",
+"Sample_Broadleaf_Forest2_Branch_Mat",
+"Sample_Broadleaf_Forest2_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/MWLW_AmericanLinden_14ft_001": {
+"path": "/Game/SHABLON/MODEL/DARAXT/MWLW_AmericanLinden_14ft_001",
+"lods": 1,
+"tris": [
+117028
+],
+"verts": [
+80378
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.35,
+1.72,
+4.17
+],
+"min_cm": [
+-65,
+-83,
+-4
+],
+"max_cm": [
+69,
+89,
+413
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+null,
+{
+"name": "Acer_campestre_leaf2",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Acer_campestre_leaf2",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_twosidet",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+null
+],
+"slot_names": [
+"MWLW_AmericanLinden_14ft_Bark_CORONA",
+"MWLW_AmericanLinden_14ft_Leaf_CORONA",
+"MWLW_AmericanLinden_14ft_Twigs_CORONA"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/MWLW_AmericanLinden_14ft_002": {
+"path": "/Game/SHABLON/MODEL/DARAXT/MWLW_AmericanLinden_14ft_002",
+"lods": 1,
+"tris": [
+191644
+],
+"verts": [
+130204
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.45,
+1.3,
+4.13
+],
+"min_cm": [
+-76,
+-64,
+-1
+],
+"max_cm": [
+69,
+66,
+412
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+null,
+{
+"name": "Acer_campestre_leaf2",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Acer_campestre_leaf2",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_twosidet",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+null
+],
+"slot_names": [
+"MWLW_AmericanLinden_14ft_Bark_CORONA",
+"MWLW_AmericanLinden_14ft_Leaf_CORONA",
+"MWLW_AmericanLinden_14ft_Twigs_CORONA"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Crataegus_Prunifolia_min_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Crataegus_Prunifolia_min_02",
+"lods": 1,
+"tris": [
+211023
+],
+"verts": [
+156539
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.76,
+2.7,
+3.12
+],
+"min_cm": [
+-121,
+-138,
+-3
+],
+"max_cm": [
+155,
+132,
+310
+],
+"uvch": 8,
+"lm_res": 256,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Trunk_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Trunk_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Trunk_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Leaf_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Leaf_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Leaf_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Trunk_Branch_Mat",
+"Leaf_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Crataegus_Prunifolia_min_01": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Crataegus_Prunifolia_min_01",
+"lods": 1,
+"tris": [
+223398
+],
+"verts": [
+165840
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+3.08,
+3.57,
+3.47
+],
+"min_cm": [
+-146,
+-156,
+-1
+],
+"max_cm": [
+162,
+200,
+345
+],
+"uvch": 8,
+"lm_res": 256,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Trunk_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Trunk_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Trunk_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Leaf_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Leaf_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Leaf_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Trunk_Branch_Mat",
+"Leaf_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/dub_4m_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/dub_4m_02",
+"lods": 1,
+"tris": [
+272276
+],
+"verts": [
+179838
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.12,
+2.14,
+4.25
+],
+"min_cm": [
+-108,
+-109,
+0
+],
+"max_cm": [
+104,
+105,
+425
+],
+"uvch": 8,
+"lm_res": 256,
+"lm_uv": 1,
+"simple_coll": 3,
+"coll_trace": "CTF_USE_SIMPLE_AS_COMPLEX",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "dub_4m_02_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_02_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_02_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Silver_Birch_Branch_Mat",
+"dub_4m_02_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Crataegus_Prunifolia": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Crataegus_Prunifolia",
+"lods": 1,
+"tris": [
+423128
+],
+"verts": [
+313865
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+3.78,
+4.09,
+3.75
+],
+"min_cm": [
+-166,
+-200,
+-4
+],
+"max_cm": [
+212,
+209,
+370
+],
+"uvch": 8,
+"lm_res": 256,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Trunk_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Trunk_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Trunk_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Leaf_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Leaf_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Leaf_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Trunk_Branch_Mat",
+"Leaf_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Juniperus_Scopulorum": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Juniperus_Scopulorum",
+"lods": 1,
+"tris": [
+503990
+],
+"verts": [
+510531
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.54,
+2.55,
+3.62
+],
+"min_cm": [
+-127,
+-121,
+-50
+],
+"max_cm": [
+127,
+134,
+313
+],
+"uvch": 8,
+"lm_res": 512,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "Branch_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Juniperus_Scopulorum/Branch_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Juniperus_Scopulorum/Branch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Juniperus_Scopulorum_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Juniperus_Scopulorum/Juniperus_Scopulorum_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Juniperus_Scopulorum/Juniperus_Scopulorum_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Branch_Branch_Mat",
+"Juniperus Scopulorum_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Biger-Bidi001": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Biger-Bidi001",
+"lods": 1,
+"tris": [
+770131
+],
+"verts": [
+738011
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+1.45,
+1.64,
+1.79
+],
+"min_cm": [
+-65,
+-77,
+-1
+],
+"max_cm": [
+80,
+87,
+177
+],
+"uvch": 2,
+"lm_res": 4,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "NEW_TREE_1_Inst2",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst2",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_Tree1",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree1",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_Tree1",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree1",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bid_Leaf_A_Mat",
+"Cap_Bid_Mat",
+"Bark_Bid_Mat"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Autumn_pear_tree_02_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Autumn_pear_tree_02_02",
+"lods": 1,
+"tris": [
+878904
+],
+"verts": [
+855392
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+5.25,
+5.17,
+7.93
+],
+"min_cm": [
+-256,
+-276,
+-6
+],
+"max_cm": [
+269,
+241,
+787
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 5,
+"mats": [
+{
+"name": "Silver_Birch_Branch_Mat_Inst",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat_Inst",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "dub_4m_03_Leaf_Mat1_Inst",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1_Inst",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "dub_4m_03_Leaf_Mat1_Inst",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1_Inst",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "dub_4m_03_Leaf_Mat1_Inst",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1_Inst",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "dub_4m_03_Leaf_Mat1_Inst",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1_Inst",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Trunk",
+"Twigs",
+"Leaf_1b",
+"Leaf_2",
+"Leaf_3"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/leaf_MatSG": {
+"path": "/Game/SHABLON/MODEL/DARAXT/leaf_MatSG",
+"lods": 1,
+"tris": [
+1118279
+],
+"verts": [
+731295
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+7.01,
+7.42,
+9.61
+],
+"min_cm": [
+-362,
+-395,
+-5
+],
+"max_cm": [
+339,
+347,
+956
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 2,
+"mats": [
+{
+"name": "NEW_TREE_1_Inst5",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst5",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_Tree4",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree4",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material__61",
+"Material__64"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Ash_tree_1": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Ash_tree_1",
+"lods": 1,
+"tris": [
+1374760
+],
+"verts": [
+887703
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+6.49,
+6.36,
+7.82
+],
+"min_cm": [
+-307,
+-333,
+-4
+],
+"max_cm": [
+343,
+303,
+779
+],
+"uvch": 1,
+"lm_res": 64,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "Ashetree_Trunk",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_Trunk",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+"blend": "BLEND_OPAQUE",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_1",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_1",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_2",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_2",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ashetree_3",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_3",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material #64",
+"Material #61",
+"Material #62",
+"Material #63"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/N_Ash_tree": {
+"path": "/Game/SHABLON/MODEL/DARAXT/N_Ash_tree",
+"lods": 1,
+"tris": [
+1765023
+],
+"verts": [
+1553652
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+7.18,
+8.09,
+10.07
+],
+"min_cm": [
+-305,
+-380,
+-3
+],
+"max_cm": [
+413,
+429,
+1005
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "Bark_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Bark_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Bark_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "green_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/green_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/green_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ash_tree_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Ash_tree_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Ash_tree_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark_Branch_Mat",
+"green_Branch_Mat",
+"Ash_tree_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/leaf": {
+"path": "/Game/SHABLON/MODEL/DARAXT/leaf",
+"lods": 1,
+"tris": [
+1778871
+],
+"verts": [
+1352673
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+8.55,
+9.15,
+12.39
+],
+"min_cm": [
+-425,
+-486,
+-4
+],
+"max_cm": [
+430,
+429,
+1235
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 4,
+"mats": [
+{
+"name": "Ashetree_03",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_03",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_02",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_02",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "M_Populus_pyramidalis_03",
+"path": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_03",
+"base": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": false,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Silver_Birch_Branch_Mat_Inst1",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat_Inst1",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Material__61",
+"Material__62",
+"Material__63",
+"Material__64"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/Lagerstroemia_speciosa": {
+"path": "/Game/SHABLON/MODEL/DARAXT/Lagerstroemia_speciosa",
+"lods": 1,
+"tris": [
+6218752
+],
+"verts": [
+6178877
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+2.8,
+2.87,
+3.54
+],
+"min_cm": [
+-154,
+-138,
+0
+],
+"max_cm": [
+126,
+149,
+353
+],
+"uvch": 1,
+"lm_res": 4,
+"lm_uv": 0,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 11,
+"mats": [
+{
+"name": "NEW_Tree",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_Tree",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_Tree",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_TREE_1_Inst",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_TREE_1_Inst1",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_Tree",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_Tree",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_TREE_1_Inst1",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_TREE_1_Inst1",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_TREE_1_Inst1",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "NEW_TREE_1_Inst1",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"bark",
+"bark2",
+"bark3",
+"Material__56",
+"leaf_bud",
+"bark3_ncl_1",
+"bud_young",
+"pilca",
+"pink",
+"leaf_bud_ncl_1",
+"bud_young_Section1"
+],
+"lod_screen": [
+2.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+},
+"/Game/SHABLON/MODEL/DARAXT/N_Ash_tree_02": {
+"path": "/Game/SHABLON/MODEL/DARAXT/N_Ash_tree_02",
+"lods": 1,
+"tris": [
+10258578
+],
+"verts": [
+7195951
+],
+"nanite": true,
+"nanite_preserve_area": false,
+"nanite_shape": "PRESERVE_AREA",
+"nanite_pct": 1.0,
+"nanite_fallback_pct": 1.0,
+"size_m": [
+8.88,
+8.24,
+11.56
+],
+"min_cm": [
+-471,
+-399,
+-1
+],
+"max_cm": [
+416,
+424,
+1155
+],
+"uvch": 8,
+"lm_res": 1024,
+"lm_uv": 1,
+"simple_coll": 0,
+"coll_trace": "CTF_USE_DEFAULT",
+"coll_profile": "BlockAll",
+"nsec": 3,
+"mats": [
+{
+"name": "Bark_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ash_tree_02/Bark_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ash_tree_02/Bark_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "green_Branch_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ash_tree_02/green_Branch_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ash_tree_02/green_Branch_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": false,
+"shading": "MSM_DEFAULT_LIT",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+},
+{
+"name": "Ash_tree_02_Leaf_Mat",
+"path": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ash_tree_02/Ash_tree_02_Leaf_Mat",
+"base": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ash_tree_02/Ash_tree_02_Leaf_Mat",
+"blend": "BLEND_MASKED",
+"two_sided": true,
+"shading": "MSM_TWO_SIDED_FOLIAGE",
+"wpo": true,
+"usage_ism": true,
+"usage_nanite": true
+}
+],
+"slot_names": [
+"Bark_Branch_Mat",
+"green_Branch_Mat",
+"Ash_tree_02_Leaf_Mat"
+],
+"lod_screen": [
+1.0
+],
+"auto_lod": "ERR:StaticMesh: Failed to find property 'auto_compute_lod_screen",
+"disk_kb": null
+}
+}

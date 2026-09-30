@@ -1,0 +1,63 @@
+{
+ "_comment": "Final level lighting / post-process state of Atrof_button (Zaliniy) on 2026-09-30, reconstructed from the last value set for every property in the session transcript. Applied by ue/lookdev/apply_lighting.py to the actors of the OPEN level (level-only change, saved in the .umap after a dated backup). Actors are found by class name prefix (Ultra_Dynamic_Sky*, Ultra_Dynamic_Weather*) and by label (PPV). Property names with spaces are UDS Blueprint variables.",
+ "uds": {
+  "Time of Day": 1300.0,
+  "Animate Time of Day": false,
+  "Randomize Cloud Formation on Run": false,
+  "Cloud Speed": 0.15,
+  "Sun Source Angle Scale": 0.5,
+  "Sun Light Color": [1.0, 0.99, 0.96, 1.0],
+  "Cloud Shadows Intensity When Sunny": 0.45,
+  "Sun Yaw": 120.0,
+  "Apply Exposure Settings": false,
+  "Exposure Bias Day": -0.5,
+  "Mie Scattering Scale Multiplier": 1.0,
+  "Saturation": 1.0,
+  "Sky Light Intensity": 0.7,
+  "Sky Light Color Multiplier (Day)": [1.12, 1.05, 0.85, 1.0],
+  "Base Fog Density": 0.0015,
+  "Base Height Fog Falloff": 0.2,
+  "All Fog Colors Multiplier": [1.0, 0.88, 0.68, 1.0]
+ },
+ "udw_manual_weather_state": {"Cloud Coverage": 1.5, "Fog": 0.05, "Wind Intensity": 1.0},
+ "udw": {"Cloud Coverage": 1.5, "Fog": 0.05},
+ "sun_component": {"name": "Sun", "indirect_lighting_intensity": 1.4, "contact_shadow_length": 0.02},
+ "height_fog_component": {"fog_density": 0.0015, "fog_height_falloff": 0.2},
+ "sky_atmosphere_component": {"aerial_pespective_view_distance_scale": 0.0},
+ "ppv": {
+  "label": "PPV_Master_Runtime",
+  "unbound": true,
+  "priority": 10.0,
+  "settings": {
+   "auto_exposure_method": "AEM_MANUAL",
+   "auto_exposure_bias": 2.1,
+   "auto_exposure_apply_physical_camera_exposure": false,
+   "white_temp": 6500.0,
+   "white_tint": -0.02,
+   "color_saturation": [1, 1, 1, 1.0],
+   "color_contrast": [1, 1, 1, 1.0],
+   "color_gain": [1.02, 1.0, 0.97, 1],
+   "color_gain_shadows": [1.02, 1.03, 0.90, 1],
+   "color_offset_shadows": [0, 0, 0, 0],
+   "color_saturation_shadows": [1, 1, 1, 1.12],
+   "color_saturation_highlights": [1, 1, 1, 1.0],
+   "blue_correction": 0.6,
+   "expand_gamut": 0.8,
+   "local_exposure_highlight_contrast_scale": 0.8,
+   "local_exposure_shadow_contrast_scale": 0.6,
+   "lumen_skylight_leaking": 0.1,
+   "lumen_final_gather_quality": 2.0,
+   "bloom_intensity": 0.3,
+   "lens_flare_intensity": 0.0,
+   "vignette_intensity": 0.15,
+   "scene_fringe_intensity": 0.0,
+   "film_grain_intensity": 0.0,
+   "motion_blur_amount": 0.2
+  }
+ },
+ "cine_camera": {"label": "CineCameraActor", "reset_post_process": true, "_why": "the client wants the cinematic camera at defaults; earlier PP overrides on it made shadows too dark"},
+ "runtime_cvars_session_only": {
+  "_comment": "console values that were live in the editor at the end; the persistent ones are in ini_settings.json",
+  "r.Nanite.ViewMeshLODBias.Offset": "tests only (0 default, -1 gave little visible gain for its cost, -2 too); the last settle test left -1 live in the editor - not persisted, restart = 0"
+ }
+}

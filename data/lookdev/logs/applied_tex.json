@@ -1,0 +1,1209 @@
+[
+[
+"Montra_Olive_Tree_Leaf_Opacity",
+[
+"Opacity"
+],
+4096,
+4096,
+{
+"mips": 1,
+"stream": 1,
+"cov": 1,
+"max": 2048
+}
+],
+[
+"Poplar_trunk_diffuse",
+[
+"Diffuse"
+],
+1048,
+3968,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Poplar_trunk_normal",
+[
+"Normal"
+],
+1048,
+3968,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Poplar_trunk_displace",
+[
+"Roughness"
+],
+1048,
+3968,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Oak_bark_diff_02",
+[
+"Diffuse"
+],
+2747,
+6760,
+{
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Oak_bark_Normal_02",
+[
+"Normal"
+],
+2747,
+6760,
+{
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Oak_bark_Displ_02",
+[
+"Roughness"
+],
+2747,
+6760,
+{
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Elm_leaf_01_diff",
+[
+"BaseColor"
+],
+800,
+1340,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Elm_leaf_01_bump",
+[
+"Normal"
+],
+800,
+1340,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Elm_leaf_01_opac",
+[
+"Opacity"
+],
+800,
+1340,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"Elm_leaf_01_trans",
+[
+"Transmission"
+],
+800,
+1340,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"RH_Estate_Footed_Trunk_Diff",
+[
+"BaseColor"
+],
+150,
+2000,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"RH_Estate_Footed_Leaf_Diff",
+[
+"BaseColor"
+],
+409,
+856,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Taiwa_Leaf",
+[
+"BaseColor"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Taiwa_Leaf_Normal",
+[
+"Normal"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Taiwa_Leaf_Opacity",
+[
+"Opacity"
+],
+164,
+512,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"Taiwa_Leaf_v2",
+[
+"BaseColor"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Taiwa_Leaf_v3",
+[
+"BaseColor"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Poplar_leaf_diffuse_02",
+[
+"Diffuse",
+"Subsurface"
+],
+441,
+442,
+{
+"mips": 1,
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Poplar_leaf_opacity",
+[
+"Mask"
+],
+441,
+442,
+{
+"mips": 1,
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"Poplar_leaf_diffuse_03",
+[
+"Diffuse",
+"Subsurface"
+],
+441,
+442,
+{
+"mips": 1,
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Amelanchier_stem_01_diff",
+[
+"Diffuse",
+"Normal",
+"Roughness",
+"Subsurface"
+],
+52,
+298,
+{
+"mips": 1,
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Poplar_leaf_diffuse_01",
+[
+"Diffuse",
+"Subsurface"
+],
+441,
+442,
+{
+"mips": 1,
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Stem_01_albedo",
+[
+"BaseColor"
+],
+193,
+2352,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Stem_01_normal",
+[
+"Normal"
+],
+193,
+2352,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Stem_01_glossiness",
+[
+"Glossiness"
+],
+193,
+2352,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Leaf_01_albedo",
+[
+"BaseColor"
+],
+3256,
+3256,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Leaf_01_normal",
+[
+"Normal"
+],
+3256,
+3256,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Leaf_01_opacity",
+[
+"Opacity"
+],
+3256,
+3256,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Leaf_01_glossiness",
+[
+"Glossiness"
+],
+3256,
+3256,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Leaf_01_translucency",
+[
+"Transmission"
+],
+3256,
+3256,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Stalk_01_albedo",
+[
+"BaseColor"
+],
+221,
+370,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Stalk_01_normal",
+[
+"Normal"
+],
+221,
+370,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Stalk_01_glossiness",
+[
+"Glossiness"
+],
+221,
+370,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Flower_01_albedo",
+[
+"BaseColor"
+],
+590,
+1095,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Flower_01_normal",
+[
+"Normal"
+],
+590,
+1095,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Flower_01_opacity",
+[
+"Opacity"
+],
+590,
+1095,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Flower_01_glossiness",
+[
+"Glossiness"
+],
+590,
+1095,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Perovskia_atriplicifolia_01_Flower_01_translucency",
+[
+"Transmission"
+],
+590,
+1095,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Phuctraining_Tropicalleaf_2_R",
+[
+"texture"
+],
+618,
+1600,
+{
+"mips": 1,
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1
+}
+],
+[
+"12eawdaw31",
+[
+"Diffuse"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"12eawdaw32",
+[
+"Normal",
+"Roughness"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata_Branch",
+[
+"BaseColor"
+],
+626,
+4096,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata_Branch_Normal",
+[
+"Normal"
+],
+626,
+4096,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Smooth_Wild_Hydrangea_Arborescens_Annabelle_Trunk",
+[
+"Glossiness"
+],
+380,
+4096,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Leaf_Front_7",
+[
+"BaseColor"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Leaf_Front_7_Normal",
+[
+"Normal"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Leaf_Front_7_Opacity",
+[
+"Opacity"
+],
+164,
+512,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"Leaf_Front_7_Gloss",
+[
+"Glossiness"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"Leaf_Front_7_SubsurfaceColor",
+[
+"Transmission"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"T73_bark_s",
+[
+"Diffuse"
+],
+1200,
+7000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"T73_bark_s_normal",
+[
+"Normal"
+],
+1200,
+7000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Stem_01_albedo",
+[
+"BaseColor"
+],
+130,
+3748,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Stem_01_normal",
+[
+"Normal"
+],
+130,
+3748,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Stem_01_glossiness",
+[
+"Glossiness"
+],
+130,
+3748,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Leaf_01_opacity",
+[
+"Opacity"
+],
+4096,
+4096,
+{
+"mips": 1,
+"stream": 1,
+"cov": 1,
+"max": 2048
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Petiole_01_albedo",
+[
+"BaseColor"
+],
+200,
+1703,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Petiole_01_normal",
+[
+"Normal"
+],
+200,
+1703,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Petiole_01_glossiness",
+[
+"Glossiness"
+],
+200,
+1703,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Flower_01_opacity",
+[
+"Opacity"
+],
+4096,
+4096,
+{
+"mips": 1,
+"stream": 1,
+"cov": 1,
+"max": 2048
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Stamen_01_albedo",
+[
+"BaseColor"
+],
+200,
+1262,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Stamen_01_normal",
+[
+"Normal"
+],
+200,
+1262,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"MT_PM_V66_Spiraea_japonica_01_Stamen_01_glossiness",
+[
+"Glossiness"
+],
+200,
+1262,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"awafaw31swda1",
+[
+"Diffuse",
+"Roughness"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"awafaw31swda2",
+[
+"Normal"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata_Leaf_Opacity",
+[
+"Opacity"
+],
+4096,
+4096,
+{
+"mips": 1,
+"stream": 1,
+"cov": 1,
+"max": 2048
+}
+],
+[
+"Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata_Flower_Opacity",
+[
+"Opacity"
+],
+4096,
+4096,
+{
+"mips": 1,
+"stream": 1,
+"cov": 1,
+"max": 2048
+}
+],
+[
+"edawwdaw31",
+[
+"Diffuse",
+"Roughness"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"edawwdaw33",
+[
+"Normal"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"edawwdaw32",
+[
+"Opacity"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"awdfaw31wadaw2",
+[
+"Diffuse"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"awdfaw31wadaw3",
+[
+"Normal",
+"Roughness"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"awdfaw31wadaw1",
+[
+"Opacity"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"Ash_p1",
+[
+"Diffuse",
+"Roughness",
+"Subsurface"
+],
+667,
+1000,
+{
+"mips": 1,
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Ash_pop",
+[
+"Mask"
+],
+667,
+1000,
+{
+"mips": 1,
+"comp": "DEFAULT",
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"Physocarpus_leaf_05_diff",
+[
+"Diffuse",
+"Normal",
+"Subsurface"
+],
+600,
+720,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"Physocarpus_leaf_01_opac",
+[
+"Mask"
+],
+600,
+720,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"Leaf",
+[
+"BaseColor"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"01_Leaf_Normal",
+[
+"Normal"
+],
+164,
+512,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"01_Leaf_Opacity",
+[
+"Opacity"
+],
+164,
+512,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"Material_3_Opacity",
+[
+"Opacity"
+],
+512,
+512,
+{
+"mips": 1,
+"stream": 1,
+"cov": 1
+}
+],
+[
+"awdawdawtue1",
+[
+"Diffuse",
+"Roughness"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"awdawdawtue3",
+[
+"Normal"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"awdawdawtue2",
+[
+"Opacity"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"aweawdasaw1",
+[
+"Diffuse"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"aweawdasaw2",
+[
+"Normal",
+"Roughness"
+],
+2000,
+2000,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1
+}
+],
+[
+"FicusBenjamina_leaf_01_diffuse_Copy",
+[
+"BaseColor"
+],
+762,
+1522,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"FicusBenjamina_leaf_01_diffuse_Normal",
+[
+"Normal"
+],
+800,
+1510,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"FicusBenjamina_leaf_01_diffuse_Copy_Opacity",
+[
+"Opacity"
+],
+800,
+1510,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"FicusBenjamina_leaf_01_diffuse_Copy_Copy",
+[
+"BaseColor"
+],
+600,
+1249,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"FicusBenjamina_leaf_01_diffuse_Copy_Copy_Opacity",
+[
+"Opacity"
+],
+800,
+1510,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+],
+[
+"FicusBenjamina_leaf_01_diffuse",
+[
+"BaseColor"
+],
+800,
+1510,
+{
+"mips": 1,
+"pot": 1
+}
+],
+[
+"FicusBenjamina_leaf_01_diffuse_Opacity",
+[
+"Opacity"
+],
+800,
+1510,
+{
+"mips": 1,
+"stream": 1,
+"pot": 1,
+"cov": 1
+}
+]
+]

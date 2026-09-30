@@ -1,0 +1,19 @@
+# machine-specific config (copy config.example.json -> config.json)
+config.json
+
+# python libraries installed with the UE-bundled python (pip install --target pylib ...)
+pylib/
+__pycache__/
+*.pyc
+
+# pipeline outputs (they live in config.work_dir; ignore them if someone points work_dir inside the repo)
+work/
+*.npy
+!data/examples/*.npy
+*.pkl
+*.png
+*.jpg
+!docs/img/*.png
+
+# backups made by the scripts
+*.bak_*

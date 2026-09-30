@@ -1,0 +1,10 @@
+# Install with the UE-bundled python into <repo>/pylib (same interpreter as the editor -> the wheels also work inside UE):
+#   "C:\Program Files\Epic Games\UE_5.8\UE_5.8\Engine\Binaries\ThirdParty\Python3\Win64\python.exe" -m pip install --target pylib -r requirements.txt
+# Versions used on Zaliniy (2026-09-30):
+numpy==2.4.6
+opencv-python-headless==5.0.0.93
+scipy==1.17.1
+scikit-image==0.26.0
+pillow==12.3.0
+matplotlib==3.11.2
+pymupdf==1.28.2

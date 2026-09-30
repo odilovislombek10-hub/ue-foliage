@@ -1,0 +1,92 @@
+{
+  "_comment": "Copy to config.json and edit. Values below are the ones used on the Zaliniy project (ANIMA_Character 5.8).",
+
+  "project_root": "D:/Zaliniy/Unreal Engine/ANIMA_Character 5.8",
+  "work_dir": "D:/uefol_work/Zaliniy",
+  "pylib": "",
+
+  "persistent_level": "/Game/LEVEL/Zaliniy/Atrof_button",
+  "foliage_level_folder": "/Game/LEVEL/Zaliniy/Foliage",
+  "foliage_level_prefix": "FOL_",
+  "streaming_class": "LevelStreamingDynamic",
+  "streaming_initially_loaded": true,
+  "streaming_initially_visible": true,
+
+  "tree_library_root": "/Game/SHABLON/MODEL/DARAXT",
+  "tree_library_root_in_data": "/Game/SHABLON/MODEL/DARAXT",
+  "foliage_type_folder": "/Game/SHABLON/MODEL/DARAXT/FoliageTypes",
+
+  "grass_materials": [
+    "/Game/SHABLON/MATERIAL/GAZON/M_Grass.M_Grass",
+    "/Game/ArchvisDefault/Material/master_material/asphalt/material/M_Grass.M_Grass"
+  ],
+
+  "material_classes": {
+    "_comment": "Surface class of every traced hit is decided by the hit material NAME (not path). Order: grass, road, paving, playground, water; anything else = other. Run ue/02_trace_classes.py once, read work/env_mats.json and extend these lists for a new project.",
+    "grass":      {"names": ["M_Grass"], "prefixes": [], "contains": []},
+    "road":       {"names": [], "prefixes": ["M_Asphalt"], "contains": []},
+    "paving":     {"names": ["MARBLE13", "M_Floor_25", "Tiles"], "prefixes": ["M_Bruschatka"], "contains": ["Marble"]},
+    "playground": {"names": [], "prefixes": ["M_landscape", "Qum"], "contains": []},
+    "water":      {"names": [], "prefixes": ["M_Water"], "contains": []}
+  },
+
+  "raster": {
+    "res_cm": 25.0,
+    "margin_cm": 3000.0,
+    "roof_z_cm": 300.0,
+    "trace_top_cm": 20000.0,
+    "trace_bottom_cm": -2000.0,
+    "near_grass_m": 20,
+    "chunk_seconds": 80
+  },
+  "ground_z_cm": -202.0,
+  "tall_above_ground_cm": 300.0,
+  "low_above_ground_cm": 30.0,
+  "bike_lane_open_m": 4,
+
+  "lots": {
+    "_comment": "04_lots.py: kvartals = blocks closed by the road network; split = 'lanes' (default, what Zaliniy used) or 'complexes'.",
+    "road_open_m": 5,
+    "road_close_m": 25,
+    "min_kvartal_grass_m2": 300,
+    "split": "lanes"
+  },
+
+  "plan_pdf": {
+    "_comment": "Optional 03_plan_register.py (lots drawn in a PDF master plan). Colours are HSV (OpenCV ranges). Leave pdf empty to skip.",
+    "pdf": "",
+    "page": 0,
+    "clip_rel": [0.0, 0.525, 1.0, 0.88],
+    "zoom": 3.0,
+    "px_per_m": 3.351,
+    "lot_line_hsv": [[45, 150, 150], [75, 255, 255]],
+    "label_box_hsv": [[22, 120, 180], [35, 255, 255]],
+    "road_grey_s_max": 25,
+    "road_grey_v": [110, 200],
+    "anchor_plan_px": null,
+    "anchor_ue_px": null
+  },
+
+  "engine": {"tag": "v6", "seed_salt": 7919},
+
+  "mpc_seasons": {
+    "path": "/Game/UltraDynamicSky/Materials/Weather/UltraDynamicWeather_Parameters",
+    "param": "UDW Seasons",
+    "summer": [0, 1, 0, 0]
+  },
+
+  "screenshots": {
+    "cine_camera_label": "CineCameraActor",
+    "width": 1920,
+    "height": 1080,
+    "wait_s": 14,
+    "save_s": 6,
+    "settle_min_s": 75,
+    "settle_max_s": 200
+  },
+
+  "lookdev": {
+    "backup_suffix": "",
+    "ppv_label": "PPV_Master_Runtime"
+  }
+}

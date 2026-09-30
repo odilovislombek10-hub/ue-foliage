@@ -1,0 +1,176 @@
+{
+ "MI_Plant_nn21": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Plant_nn22": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "Ashetree_00": {
+  "subsurface_Brightness": 1.5499999523162842
+ },
+ "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary04_ID3": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower04_ID3": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID3": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Leaf": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_RH_Estate_Footed_Buxus_Leaves_1_Front": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Taiwa_Leaf_Mat": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Taiwa_Leaf_v2_Mat": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Taiwa_Leaf_v3_Mat": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "M_Populus_pyramidalis_02": {
+  "subsurface_Brightness": 1.5
+ },
+ "M_Populus_pyramidalis_03": {
+  "subsurface_Brightness": 1.5
+ },
+ "M_Populus_pyramidalis_01": {
+  "subsurface_Brightness": 1.5
+ },
+ "MI_Leaf_Front_7_Mat": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_MT_PM_V66_Spiraea_japonica_01_Leaf_01": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata02_ID4": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata04_ID4": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Pandora_Land_Lavandula_Pedunculata_Atlantica_Stoechas_Subpedunculata03_ID4": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Pandora_Land_Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Version02_2_ID3": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "M_Anelanchier_01": {
+  "subsurface_Brightness": 1.5
+ },
+ "Ashetree_1": {
+  "subsurface_Brightness": 1.2000000476837158
+ },
+ "Ashetree_2": {
+  "subsurface_Brightness": 0.800000011920929
+ },
+ "Ashetree_3": {
+  "subsurface_Brightness": 1.0
+ },
+ "Ashetree_03": {
+  "subsurface_Brightness": 1.0
+ },
+ "MI_palnt": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_Material_3_Mat_2Sided": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_FicusBenjamina_leaf_01_diffuse_Copy_Mat": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_FicusBenjamina_leaf_01_diffuse_Copy_Copy_Mat": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ },
+ "MI_FicusBenjamina_leaf_01_diffuse_Mat": {
+  "SubsurfaceTint": [
+   1.2999999523162842,
+   1.399999976158142,
+   0.6000000238418579
+  ]
+ }
+}

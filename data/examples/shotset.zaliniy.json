@@ -1,0 +1,15 @@
+{
+ "_comment": "Fixed 7-shot audit set used on Zaliniy (copy to <work>/shots/shotset.json and change the coordinates for a new project). TA/TB = 90 m oblique aerials of two dense courtyards (pitch 32, yaw 33), EYE0..3 = 1.65 m eye level inside planted courtyards, then CINE through the level's CineCameraActor.",
+ "aerials": [
+  {"name": "TA", "target": [68358, 33883], "yaw": 33, "dist": 9000, "pitch": 32, "fov": 55},
+  {"name": "TB", "target": [-13042, 25783], "yaw": 33, "dist": 9000, "pitch": 32, "fov": 55}
+ ],
+ "eyes": [
+  {"name": "EYE0", "pos": [-13042.3, 27783.3, -37.0], "yaw": 0.0, "pitch": 4, "fov": 62},
+  {"name": "EYE1", "pos": [-12742.3, 23983.3, -37.0], "yaw": 180.0, "pitch": 4, "fov": 62},
+  {"name": "EYE2", "pos": [-15242.3, 22383.3, -37.0], "yaw": 180.0, "pitch": 4, "fov": 62},
+  {"name": "EYE3", "pos": [68357.7, 33883.3, -37.0], "yaw": 90.0, "pitch": 4, "fov": 62}
+ ],
+ "top_target": [30000, 20000],
+ "cine": true
+}
