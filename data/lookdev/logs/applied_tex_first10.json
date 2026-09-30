@@ -1,0 +1,12 @@
+[
+ ["Green_jk3", ["BaseColor", "Glossiness", "Transmission"], 2880, 1035, {"mips": 1, "pot": 1}],
+ ["Green_jk1", ["BaseColor", "Glossiness", "Transmission"], 2880, 1035, {"mips": 1, "pot": 1}],
+ ["Ash-tree_leaf_diff", ["Diffuse", "Roughness", "Subsurface"], 640, 1200, {"mips": 1, "stream": 1, "pot": 1}],
+ ["Ash-tree_leaf_opac", ["Mask"], 640, 1200, {"mips": 1, "stream": 1, "pot": 1, "cov": 1}],
+ ["Poplar_leaf_bump", ["Normal", "Roughness"], 441, 442, {"mips": 1, "comp": "DEFAULT", "stream": 1, "pot": 1}],
+ ["Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Branch", ["BaseColor"], 380, 4096, {"mips": 1, "pot": 1}],
+ ["Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Branch_Normal", ["Normal"], 380, 4096, {"mips": 1, "pot": 1}],
+ ["Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Branch_Gloss", ["Glossiness"], 380, 4096, {"mips": 1, "pot": 1}],
+ ["Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Leaf_Opacity", ["Opacity"], 4096, 4096, {"mips": 1, "stream": 1, "cov": 1, "max": 2048}],
+ ["Grey_Box_Westringia_Fruticosa_Coastal_Rosemary_Flower_Opacity", ["Opacity"], 4096, 4096, {"mips": 1, "stream": 1, "cov": 1, "max": 2048}]
+]

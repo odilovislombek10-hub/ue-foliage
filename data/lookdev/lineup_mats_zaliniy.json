@@ -1,0 +1,2558 @@
+{
+ "00_Ash-tree_05_21_2m_": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Ash-tree_05_21_2m_",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Oak_01",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 2.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.1,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_diff_02",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_Displ_02",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_Normal_02"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Oak_01",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 2.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.1,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_diff_02",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_Displ_02",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_Normal_02"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Philotheca_Myoporoides_Leaf",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Reed",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Specular": 0.031,
+     "Normal": 0.506,
+     "Fresnel_1": 1.0,
+     "Fresnel_2": 0.473,
+     "roughness": 0.766,
+     "subsurface": 0.2,
+     "Season Tint Amount": 1.0
+    },
+    "vec": {
+     "Diffuce_02": [
+      0.07,
+      0.074,
+      0.003
+     ],
+     "Diffuce_01": [
+      0.089,
+      0.101,
+      0.022
+     ],
+     "subsurface": [
+      0.322,
+      0.351,
+      0.057
+     ]
+    },
+    "tex": {
+     "opacity": "/MeshModelingToolsetExp/Textures/DefaultOpacity",
+     "texture": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Phuctraining_Tropicalleaf_2_R"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.8,
+     "Contrass": 1.2,
+     "Desaturation": 0.1,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.1,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.8,
+     "Contrass": 1.2,
+     "Desaturation": 0.1,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.1,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.8,
+     "Contrass": 1.2,
+     "Desaturation": 0.1,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.1,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.8,
+     "Contrass": 1.2,
+     "Desaturation": 0.1,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.1,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "01_18m_Terak_02": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/18m_Terak_02",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_05",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 1.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.147,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_diffuse",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_displace",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_normal"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_03",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.35,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.7,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/MeshModelingToolsetExp/Textures/DefaultOpacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_01",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.905,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.5,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.3,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_opacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_01",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_01"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_02",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.95,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.3,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_opacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_02",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_02"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_03",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.754,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.3,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_opacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_03",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_03"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_05",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 1.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.147,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_diffuse",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_displace",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_normal"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "02_18m_Terak_01": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/18m_Terak_01",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_05",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 1.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.147,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_diffuse",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_displace",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_normal"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_03",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.35,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.7,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/MeshModelingToolsetExp/Textures/DefaultOpacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_01",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.905,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.5,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.3,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_opacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_01",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_01"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_02",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.95,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.3,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_opacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_02",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_02"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_03",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.754,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.3,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_opacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_03",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_03"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_05",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 1.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.147,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_diffuse",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_displace",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_trunk_normal"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "03_Silver_Birch_02": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_02",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Roughness": 0.85,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_02_Leaf_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Large/Silver_Birch_02_Leaf_Mat",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Brightness": 1.0,
+     "contrast": 1.2,
+     "desaturation": 0.3,
+     "scontrast": 1.3,
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   }
+  ]
+ },
+ "04_Ash-tree_0202_15_5m_": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Ash-tree_0202_15_5m_",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Oak_01",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 2.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.1,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_diff_02",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_Displ_02",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_Normal_02"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Oak_01",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 2.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.1,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_diff_02",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_Displ_02",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Oak_bark_Normal_02"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Philotheca_Myoporoides_Leaf",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Reed",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Specular": 0.031,
+     "Normal": 0.506,
+     "Fresnel_1": 1.0,
+     "Fresnel_2": 0.473,
+     "roughness": 0.766,
+     "subsurface": 0.2,
+     "Season Tint Amount": 1.0
+    },
+    "vec": {
+     "Diffuce_02": [
+      0.07,
+      0.074,
+      0.003
+     ],
+     "Diffuce_01": [
+      0.089,
+      0.101,
+      0.022
+     ],
+     "subsurface": [
+      0.322,
+      0.351,
+      0.057
+     ]
+    },
+    "tex": {
+     "opacity": "/MeshModelingToolsetExp/Textures/DefaultOpacity",
+     "texture": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Phuctraining_Tropicalleaf_2_R"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.8,
+     "Contrass": 1.2,
+     "Desaturation": 0.1,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.1,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.8,
+     "Contrass": 1.2,
+     "Desaturation": 0.1,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.1,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.8,
+     "Contrass": 1.2,
+     "Desaturation": 0.1,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.1,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_00",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.8,
+     "Contrass": 1.2,
+     "Desaturation": 0.1,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.1,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "05_Autumn_hornbeam_02_02": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/yangi/Autumn_hornbeam_02_02",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Trunk",
+    "master": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Opaque",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "RoughnessConst": 0.55,
+     "UseGloss": 0.0,
+     "MetallicConst": 0.0
+    },
+    "vec": {
+     "Tint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "BaseColor": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/As_bark_2",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/As_bark_2_NRM",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Branches",
+    "master": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Opaque",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "RoughnessConst": 0.55,
+     "UseGloss": 0.0,
+     "MetallicConst": 0.0
+    },
+    "vec": {
+     "Tint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "BaseColor": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/As_bark_2",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/As_bark_2_NRM",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Twigs",
+    "master": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Opaque",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "RoughnessConst": 0.0,
+     "UseGloss": 0.0,
+     "MetallicConst": 0.0
+    },
+    "vec": {
+     "Tint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "BaseColor": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/As_bark_2",
+     "Normal": "/Engine/EngineMaterials/DefaultNormal",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Leaf_1a",
+    "master": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Foliage",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.42,
+     "UseGloss": 0.0,
+     "MetallicConst": 0.0,
+     "SubsurfaceAmount": 0.4,
+     "Season Tint Amount": 1.0
+    },
+    "vec": {
+     "Tint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "BaseColor": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/Beech-p4",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/Beech_p3_normal",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/Beech_p3_op"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Leaf_2a",
+    "master": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Foliage",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.47,
+     "UseGloss": 0.0,
+     "MetallicConst": 0.0,
+     "SubsurfaceAmount": 0.4,
+     "Season Tint Amount": 1.0
+    },
+    "vec": {
+     "Tint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "BaseColor": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/Beech-p4b",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/Beech_p3_normal",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/Beech_p3_op"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/MI_Leaf_3a",
+    "master": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/M_Auto_Foliage",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.5,
+     "UseGloss": 0.0,
+     "MetallicConst": 0.0,
+     "SubsurfaceAmount": 0.4,
+     "Season Tint Amount": 1.0
+    },
+    "vec": {
+     "Tint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "BaseColor": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/Beech-p4b",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/Beech_p3_normal",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/yangi/TEXTURA/Beech_p3_op"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "06_Sample_Broadleaf_Forest2": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Sample_Broadleaf_Forest2",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Bark_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Bark_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Roughness": 0.85,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Sample_Broadleaf_Forest2_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Sample_Broadleaf_Forest2_Branch_Mat",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Sample_Broadleaf_Forest2_Leaf_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest2/Sample_Broadleaf_Forest2_Leaf_Mat",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Brightness": 0.7,
+     "contrast": 1.5,
+     "desaturation": 0.4,
+     "scontrast": 1.3,
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   }
+  ]
+ },
+ "07_leaf": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/leaf",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_03",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.8,
+     "Contrass": 1.2,
+     "Desaturation": 0.1,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.1,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Physocarpus_leaf_01_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Physocarpus_leaf_05_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash-tree_leaf_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Physocarpus_leaf_05_diff",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Physocarpus_leaf_05_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_02",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.95,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.3,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_opacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_02",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_02"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Populus_pyramidalis_03",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.754,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.3,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_opacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_03",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_diffuse_03"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat_Inst1",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.0,
+     "EXP": 1.0
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/Ash_bark",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Normal_png_Tex",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/T73_bark_s_normal"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "08_Sample_Broadleaf_Forest3": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Sample_Broadleaf_Forest3",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Bark_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Bark_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Roughness": 0.85,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Sample_Broadleaf_Forest3_Leaf_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Sample_Broadleaf_Forest3/Sample_Broadleaf_Forest3_Leaf_Mat",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Brightness": 1.0,
+     "contrast": 1.8,
+     "desaturation": 0.4,
+     "scontrast": 1.3,
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   }
+  ]
+ },
+ "09_Ash_tree": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Ash_tree",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/Bark_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/Bark_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Param": 100.0,
+     "Roughness": 0.85,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/green_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/green_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Param": 100.0,
+     "Roughness": 0.85,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/Ash_tree_Leaf_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Ashe_Tree/Ash_tree_Leaf_Mat",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Brightness": 0.8,
+     "contrast": 1.0,
+     "desaturation": 0.3,
+     "s_contrast": 1.2,
+     "Param": 100.0,
+     "Param_3": 10.0,
+     "ssss": 1.0,
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   }
+  ]
+ },
+ "10_leaf_MatSG": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/leaf_MatSG",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst5",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 1.0,
+     "Normal": 1.0,
+     "Desa": 0.184,
+     "EXP": 0.264
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/awdawdawtue1",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/awdawdawtue1",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/awdawdawtue3",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/awdawdawtue2"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree4",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.3,
+     "EXP": 0.66
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/aweawdasaw1",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/aweawdasaw2",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/aweawdasaw2"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "11_Autumn_pear_tree_02_02": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Autumn_pear_tree_02_02",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat_Inst",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.0,
+     "EXP": 1.0
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/T73_bark_s",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Normal_png_Tex",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/T73_bark_s_normal"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1_Inst",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "NormalEXP": 1.0,
+     "EXP": 0.224,
+     "Desa": -0.024,
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_2",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_NRM",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_op2"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1_Inst",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "NormalEXP": 1.0,
+     "EXP": 0.224,
+     "Desa": -0.024,
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_2",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_NRM",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_op2"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1_Inst",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "NormalEXP": 1.0,
+     "EXP": 0.224,
+     "Desa": -0.024,
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_2",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_NRM",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_op2"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1_Inst",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_03_Leaf_Mat1",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "NormalEXP": 1.0,
+     "EXP": 0.224,
+     "Desa": -0.024,
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_2",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_NRM",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/Autumn_pear_04_op2"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "12_Ash_tree_1": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Ash_tree_1",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_Trunk",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 1.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.934,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_bark",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_bark-d",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_bark-d"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_1",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.6,
+     "Contrass": 1.2,
+     "Desaturation": 0.25,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_pop",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_p1",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_p1",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_p1"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_2",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.6,
+     "Contrass": 1.2,
+     "Desaturation": 0.25,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_pop",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_p1",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_p1",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_p1"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/Ashetree_3",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.6,
+     "Contrass": 1.2,
+     "Desaturation": 0.25,
+     "Roughness": 0.8,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_pop",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_p1",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_p1",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Poplar_leaf_bump",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Ash_p1"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "13_Silver_Birch_Medium_6m_01": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Medium_6m_01",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Small/Silver_Birch_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Small/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Roughness": 0.85,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Small/Silver_Birch_Medium_6m_01_Leaf_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Silver_Birch_Small/Silver_Birch_Medium_6m_01_Leaf_Mat",
+    "shading": "MSM_SUBSURFACE",
+    "scal": {
+     "subsurdace": 1.0,
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   }
+  ]
+ },
+ "14_Silver_Birch_Medium_6m_02": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Silver_Birch_Medium_6m_02",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.0,
+     "EXP": 1.0
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Color_png_Tex",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Normal_png_Tex",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Normal_png_Tex"
+    },
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Medium_6m_02_Leaf_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Medium_6m_02_Leaf_Mat",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   }
+  ]
+ },
+ "15_Cherry_flowering_0302_Cerasus_": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/sakura/Cherry_flowering_0302_Cerasus_",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark_04",
+    "master": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Diffuse_Level (3)": 1.0,
+     "Reflection_Level (10)": 1.0,
+     "Reflection_Glossiness (12)": 0.47,
+     "Normal_Intensity (18)": 1.3,
+     "Fresnel_IOR (30)": 1.566
+    },
+    "vec": {
+     "Falloff_Side (7)": [
+      0.192,
+      0.192,
+      0.192
+     ]
+    },
+    "tex": {
+     "Diffuse (1)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_bark_06_diff_2_2_Tex",
+     "Texture (6)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Map__2138388200Color_Correction2391_Tex",
+     "Bump_Map (13)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_bark_06_diff_2_2_Tex"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark03_2",
+    "master": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Diffuse_Level (3)": 1.0,
+     "Reflection_Level (10)": 0.42,
+     "Reflection_Glossiness (12)": 0.66,
+     "Normal_Intensity (18)": 1.5,
+     "Fresnel_IOR (30)": 1.782
+    },
+    "vec": {
+     "Falloff_Side (7)": [
+      0.294,
+      0.294,
+      0.294
+     ]
+    },
+    "tex": {
+     "Diffuse (1)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_bark_0301_diff_2_2_Tex",
+     "Texture (6)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Map__2138388200Color_Correction2293_Tex",
+     "Bump_Map (13)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_bark_0301_diff_2_2_Tex"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Bark02_2",
+    "master": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Bark01",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Diffuse_Level (3)": 1.0,
+     "Reflection_Level (10)": 0.35,
+     "Reflection_Glossiness (12)": 0.65,
+     "Normal_Intensity (18)": 1.3,
+     "Fresnel_IOR (30)": 1.712
+    },
+    "vec": {
+     "Falloff_Side (7)": [
+      0.314,
+      0.314,
+      0.314
+     ]
+    },
+    "tex": {
+     "Diffuse (1)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_bark_04_diff_2_2_Tex",
+     "Texture (6)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Map__2138388200Color_Correction1903_Tex",
+     "Bump_Map (13)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_bark_04_diff_2_2_Tex"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Leaf01_2",
+    "master": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Leaf01",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Season Tint Amount": 1.0,
+     "Diffuse_Level (3)": 1.0,
+     "Output_Level (6)": 0.55,
+     "Reflection_Level (8)": 1.0,
+     "Reflection_Glossiness (10)": 0.83,
+     "Normal_Intensity (16)": 5.0,
+     "Fresnel_IOR (32)": 2.043
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse (1)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_leaf_02_diff_2_2_Tex",
+     "Texture (4)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_leaf_02_refl_2_2_Tex",
+     "Bump_Map (11)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_leaf_02_bump_2_2_Tex",
+     "Texture (24)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_leaf_01_opac_2_2_Tex"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Petal_2",
+    "master": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Petal",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Season Tint Amount": 1.0,
+     "Reflection_Level (6)": 1.0,
+     "Reflection_Glossiness (8)": 0.27,
+     "Fresnel_IOR (20)": 1.52
+    },
+    "vec": {},
+    "tex": {
+     "Reflection (4)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_fl_01_refl_2_2_Tex",
+     "Bump_Map (9)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_fl_01_refl_2_2_Tex",
+     "Texture (12)": "/Game/SHABLON/MODEL/DARAXT/sakura/Textures/Cerasus_fl_01_opac_2_2_Tex"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/Stem_2",
+    "master": "/Game/SHABLON/MODEL/DARAXT/sakura/Materials/References/Stem",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Diffuse_Level (3)": 1.0,
+     "Reflection_Level (6)": 1.0,
+     "Reflection_Glossiness (8)": 0.62,
+     "Fresnel_IOR (13)": 1.52
+    },
+    "vec": {
+     "Diffuse (1)": [
+      0.071,
+      0.004,
+      0.004
+     ],
+     "Reflection (4)": [
+      0.545,
+      0.545,
+      0.545
+     ]
+    },
+    "tex": {},
+    "is_instance": true
+   }
+  ]
+ },
+ "16_Corona_Proxy137": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy137",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Material_2_Mat",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "UseGloss": 0.0,
+     "GlossGamma": 2.2,
+     "ColorSaturation": 1.0,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.5,
+     "RoughnessConst": 0.6,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Material_2_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Material_2",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Material_3_Mat_2Sided",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 0.0,
+     "ColorSaturation": 0.9,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.55,
+     "GlossGamma": 2.2,
+     "UseGloss": 0.0,
+     "OpacityGamma": 1.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 1.0,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      0.55,
+      0.65,
+      0.2
+     ],
+     "ColorTint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Material_3_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Material_3",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture",
+     "Opacity": "/Game/SHABLON/MODEL/export/txtr/Material_3_Opacity",
+     "Transmission": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "17_dub_4m_02": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/dub_4m_02",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.0,
+     "EXP": 1.0
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Color_png_Tex",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Normal_png_Tex",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Normal_png_Tex"
+    },
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_02_Leaf_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/dub_4m_02_Leaf_Mat",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   }
+  ]
+ },
+ "18_3m_Irga_02": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/3m_Irga_02",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Trunk_01",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Trunk",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Brightness": 1.0,
+     "Contrass": 1.0,
+     "Desaturation": 0.0,
+     "Roughness": 0.76,
+     "R_Contrass": 1.0,
+     "Normal": 0.053,
+     "Normal_UV": 1.0,
+     "RoughMin": 0.8,
+     "RoughMax": 0.95,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_bark_01_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_bark_01_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_bark_01_Normal"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_03",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.35,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.7,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.0,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/MeshModelingToolsetExp/Textures/DefaultOpacity",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff",
+     "Normal": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_stem_01_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_01",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.754,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.402,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_leaf_01_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_leaf_01_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_leaf_01_refl",
+     "Normal": "/Engine/EngineMaterials/DefaultWhiteGrid_Low",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_leaf_01_diff"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Material/M_Anelanchier_01",
+    "master": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/material_Base/M_Base_Leaf",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Metallic": 0.0,
+     "Specular": 0.35,
+     "Brightness": 0.754,
+     "Contrass": 1.2,
+     "Desaturation": 0.11,
+     "Roughness": 0.586,
+     "R_Contrass": 1.0,
+     "subsurface_Brightness": 0.6,
+     "Subsurfacee_Contrass": 1.0,
+     "Subsurface_Desaturation": 0.0,
+     "Normal": 0.402,
+     "Season Tint Amount": 1.0,
+     "RoughMin": 0.6,
+     "RoughMax": 0.85
+    },
+    "vec": {},
+    "tex": {
+     "Mask": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_leaf_01_opac",
+     "Diffuse": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_leaf_01_diff",
+     "Roughness": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_leaf_01_refl",
+     "Normal": "/Engine/EngineMaterials/DefaultWhiteGrid_Low",
+     "Subsurface": "/Game/SHABLON/MODEL/IZGIRIT/TXTR/Texture/Amelanchier_leaf_01_diff"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "19_Crataegus_Prunifolia": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Crataegus_Prunifolia",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Trunk_Branch_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Trunk_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Roughness": 0.85,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Leaf_Leaf_Mat",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Speed_tree/Crataegus_Prunifolia/Leaf_Leaf_Mat",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "Season Tint Amount": 1.0,
+     "Roughness": 0.7,
+     "Specular": 0.35
+    },
+    "vec": {},
+    "tex": {},
+    "is_instance": false
+   }
+  ]
+ },
+ "20_Lagerstroemia_speciosa": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/Lagerstroemia_speciosa",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.3,
+     "EXP": 0.66
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw31",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.3,
+     "EXP": 0.66
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw31",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.3,
+     "EXP": 0.66
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw31",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 1.0,
+     "Normal": 1.0,
+     "Desa": -0.604,
+     "EXP": 0.272
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/awdfaw31wadaw2",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/awdfaw31wadaw3",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/awdfaw31wadaw3",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/awdfaw31wadaw1"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 1.0,
+     "Normal": 1.0,
+     "Desa": 0.0,
+     "EXP": 1.0
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa32",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa31",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa33",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa34"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.3,
+     "EXP": 0.66
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw31",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_Tree",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/Silver_Birch_Branch_Mat",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 0.85,
+     "Normal": 1.0,
+     "Desa": 0.3,
+     "EXP": 0.66
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw31",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/12eawdaw32"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 1.0,
+     "Normal": 1.0,
+     "Desa": 0.0,
+     "EXP": 1.0
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa32",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa31",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa33",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa34"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 1.0,
+     "Normal": 1.0,
+     "Desa": 0.0,
+     "EXP": 1.0
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa32",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa31",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa33",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa34"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 1.0,
+     "Normal": 1.0,
+     "Desa": 0.0,
+     "EXP": 1.0
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa32",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa31",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa33",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa34"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1_Inst1",
+    "master": "/Game/SHABLON/MODEL/DARAXT/TXTR/NEW_TREE_1",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "Specular": 0.0,
+     "Rouhnes": 1.0,
+     "Normal": 1.0,
+     "Desa": 0.0,
+     "EXP": 1.0
+    },
+    "vec": {},
+    "tex": {
+     "Diffuse": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa32",
+     "Roughness": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa31",
+     "Normal": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa33",
+     "Opacity": "/Game/SHABLON/MODEL/DARAXT/TXTR/1asadaweawa34"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "21_TSH-Tree002": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/TSH-Tree002",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Bark_Mat",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "UseGloss": 0.0,
+     "GlossGamma": 2.2,
+     "ColorSaturation": 1.0,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.3,
+     "RoughnessConst": 0.6,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Bark_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Bark",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Cap_Mat",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "UseGloss": 0.0,
+     "GlossGamma": 2.2,
+     "ColorSaturation": 1.0,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.3,
+     "RoughnessConst": 0.6,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Cap_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Cap",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Leaf_Mat",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 0.0,
+     "ColorSaturation": 0.9,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.42,
+     "GlossGamma": 2.2,
+     "UseGloss": 0.0,
+     "OpacityGamma": 1.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 1.0,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      0.55,
+      0.65,
+      0.2
+     ],
+     "ColorTint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Leaf_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Leaf",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture",
+     "Opacity": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Leaf_Opacity",
+     "Transmission": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Leaf_v2_Mat",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 0.0,
+     "ColorSaturation": 0.9,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.4,
+     "GlossGamma": 2.2,
+     "UseGloss": 0.0,
+     "OpacityGamma": 1.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 1.0,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      0.55,
+      0.65,
+      0.2
+     ],
+     "ColorTint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Leaf_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Leaf_v2",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture",
+     "Opacity": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Leaf_Opacity",
+     "Transmission": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Taiwa_Leaf_v3_Mat",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 0.0,
+     "ColorSaturation": 0.9,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.38,
+     "GlossGamma": 2.2,
+     "UseGloss": 0.0,
+     "OpacityGamma": 1.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 1.0,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      0.55,
+      0.65,
+      0.2
+     ],
+     "ColorTint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Leaf_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Leaf_v3",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture",
+     "Opacity": "/Game/SHABLON/MODEL/export/txtr/Taiwa_Leaf_Opacity",
+     "Transmission": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "22_Montra_Olive_Tree_Version7_1": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Montra_Olive_Tree_Version7_1",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID1",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque",
+    "shading": "MSM_DEFAULT_LIT",
+    "scal": {
+     "UseGloss": 0.0,
+     "GlossGamma": 2.2,
+     "ColorSaturation": 1.0,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.45,
+     "RoughnessConst": 0.6,
+     "Specular": 0.3
+    },
+    "vec": {},
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Montra_Olive_Tree_Trunk_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Montra_Olive_Tree_Trunk",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID2",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 0.0,
+     "ColorSaturation": 1.0,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.45,
+     "GlossGamma": 2.2,
+     "UseGloss": 0.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 1.0,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "ColorTint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Montra_Olive_Tree_Branch_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Montra_Olive_Tree_Branch",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture",
+     "Transmission": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Pandora_Land_Montra_Olive_Tree_Version7_1_ID3",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Masked",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 0.0,
+     "ColorSaturation": 0.9,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 1.0,
+     "GlossGamma": 2.2,
+     "UseGloss": 0.0,
+     "OpacityGamma": 1.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 0.3,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      0.55,
+      0.65,
+      0.2
+     ],
+     "ColorTint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "Normal": "/Game/SHABLON/MODEL/export/txtr/Montra_Olive_Tree_Leaf_Normal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Montra_Olive_Tree_Leaf",
+     "Glossiness": "/Engine/EngineResources/WhiteSquareTexture",
+     "Opacity": "/Game/SHABLON/MODEL/export/txtr/Montra_Olive_Tree_Leaf_Opacity",
+     "Transmission": "/Engine/EngineResources/WhiteSquareTexture"
+    },
+    "is_instance": true
+   }
+  ]
+ },
+ "23_Corona_Proxy071": {
+  "mesh": "/Game/SHABLON/MODEL/DARAXT/agalarov/izgirit/Corona_Proxy071",
+  "materials": [
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn21",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 1.0,
+     "ColorSaturation": 0.9,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 1.6,
+     "GlossGamma": 2.2,
+     "UseGloss": 1.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 1.0,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      0.55,
+      0.65,
+      0.2
+     ],
+     "ColorTint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "Normal": "/Engine/EngineMaterials/DefaultNormal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Green_jk3",
+     "Glossiness": "/Game/SHABLON/MODEL/export/txtr/Green_jk3",
+     "Transmission": "/Game/SHABLON/MODEL/export/txtr/Green_jk3"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn22",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 1.0,
+     "ColorSaturation": 0.9,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.5,
+     "GlossGamma": 2.2,
+     "UseGloss": 1.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 1.0,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      0.55,
+      0.65,
+      0.2
+     ],
+     "ColorTint": [
+      1.05,
+      1.0,
+      0.8
+     ]
+    },
+    "tex": {
+     "Normal": "/Engine/EngineMaterials/DefaultNormal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Green_jk1",
+     "Glossiness": "/Game/SHABLON/MODEL/export/txtr/Green_jk1",
+     "Transmission": "/Game/SHABLON/MODEL/export/txtr/Green_jk1"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn21",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 1.0,
+     "ColorSaturation": 0.9,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 1.6,
+     "GlossGamma": 2.2,
+     "UseGloss": 1.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 1.0,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      0.55,
+      0.65,
+      0.2
+     ],
+     "ColorTint": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "tex": {
+     "Normal": "/Engine/EngineMaterials/DefaultNormal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Green_jk3",
+     "Glossiness": "/Game/SHABLON/MODEL/export/txtr/Green_jk3",
+     "Transmission": "/Game/SHABLON/MODEL/export/txtr/Green_jk3"
+    },
+    "is_instance": true
+   },
+   {
+    "mat": "/Game/SHABLON/MODEL/export/mtl/MI_Plant_nn22",
+    "master": "/Game/SHABLON/MODEL/export/mtl/M_Foliage_Opaque_SSS",
+    "shading": "MSM_TWO_SIDED_FOLIAGE",
+    "scal": {
+     "RoughnessConst": 0.6,
+     "UseTransmissionTex": 1.0,
+     "ColorSaturation": 0.9,
+     "ColorContrast": 1.0,
+     "ColorBrightness": 0.5,
+     "GlossGamma": 2.2,
+     "UseGloss": 1.0,
+     "SubsurfaceAmount": 0.5,
+     "Season Tint Amount": 1.0,
+     "Specular": 0.35
+    },
+    "vec": {
+     "SubsurfaceTint": [
+      0.55,
+      0.65,
+      0.2
+     ],
+     "ColorTint": [
+      1.05,
+      1.0,
+      0.8
+     ]
+    },
+    "tex": {
+     "Normal": "/Engine/EngineMaterials/DefaultNormal",
+     "BaseColor": "/Game/SHABLON/MODEL/export/txtr/Green_jk1",
+     "Glossiness": "/Game/SHABLON/MODEL/export/txtr/Green_jk1",
+     "Transmission": "/Game/SHABLON/MODEL/export/txtr/Green_jk1"
+    },
+    "is_instance": true
+   }
+  ]
+ }
+}

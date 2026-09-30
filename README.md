@@ -22,6 +22,8 @@ Nima qiladi:
 7. Skrinshotlar bilan vizual tekshiradi (daraxt ekrandan keyin kutib, Nanite/tekstura yuklanib bo'lgach).
 8. Ixtiyoriy: Zaliniyda tasdiqlangan **vizual holat** (daraxt materiallari, teksturalar, yorug'lik, PPV, ini)
    — `docs/LOOKDEV_QOLLANMA.md`.
+   Daraxtlar bo'yicha har bir material va tekstura o'zgarishi (oldin -> keyin, sabab, qaysi turlar):
+   `docs/DARAXT_OZGARISHLAR.md` (rasmlar `docs/img/`).
 
 Zaliniy natijasi: 23 ta lot (1-bosqich), 839 ta maysa uchastkasi, 24 416 ta o'simlik (5 635 daraxt), 54 xil model.
 Bu repodagi offline qism Zaliniy ma'lumotlarida sinab ko'rildi: 23 levelning hammasi asl natija bilan
