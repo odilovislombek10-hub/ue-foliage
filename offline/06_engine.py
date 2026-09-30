@@ -15,9 +15,9 @@ Order per lot:
  5 coverage fill: greedy tree clusters (3-4 species of the lot's harmony group, merged crowns) until the
    bed's canopy target is met; partial clusters are kept (no roll-back); class falls back L -> M -> S
  6 shrub skirts (2-4 species, layered back/middle/front) on the path-facing side of tree bases
- 7 strip groups for beds too narrow for trees; edge drifts
- 8 empty-patch repair loop: every lawn patch > 30 m2 farther than 4 m from any plant gets a tree(+skirt)
-   or an edge drift until none is left (parks keep one deliberate glade per large bed)
+ 7 rhythmic facade masses + strip groups for beds too narrow for trees
+ 8 context-aware empty-patch repair: tree-poor lawns get structure; tree-heavy/facade/strip beds get
+   layered shrub masses first (parks keep one deliberate glade per large bed)
 """
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lib'))
@@ -28,7 +28,24 @@ import geom as G
 import species6 as SPC
 
 EDGE_OFF, FACADE_OFF, ROAD_OFF = SPC.EDGE_OFF, SPC.FACADE_OFF, SPC.ROAD_OFF
-SKIRT_GAP = 9.0          # m between skirted trees (performance budget)
+ARCHVIZ = {
+    # A shifted/repaired row position must still keep this share of its nominal spacing.  This prevents
+    # partially-overlapping offset contours from interleaving into a visually doubled street row.
+    'row_spacing_factor': 0.78,
+    'row_min_spacing_m': 4.0,
+    'unrelated_tree_min_m': 4.0,
+    # Underplanting is rhythmic rather than a ring around every trunk (visual hierarchy + performance).
+    'skirt_gap_m': 7.5,
+    'street_skirt_step': 2,
+    # Building edges receive designed masses with breathing intervals, not a continuous hedge.
+    'facade_drift_period_m': 13.0,
+    'facade_drift_min_run_m': 7.0,
+    # Once a bed already has enough tree structure, repair bare patches with shrubs before adding trees.
+    'tree_heavy_per_100m2': 3.5,
+    'tree_heavy_canopy': 0.52,
+}
+ARCHVIZ.update(env.CFG.get('engine', {}).get('archviz', {}))
+SKIRT_GAP = float(ARCHVIZ['skirt_gap_m'])
 BLD, ROAD, PAVE, PLAY, CUT = 0, 1, 2, 3, 4
 role, D, is_tree, tone = SPC.role, SPC.D, SPC.is_tree, SPC.tone
 OUT = os.path.dirname(env.W('engine', 'x'))
@@ -92,13 +109,15 @@ class Planter:
         return float(SPC.base(key) * mul * self.rng.uniform(1 - j, 1 + j))
 
     # ---- spacing checks -------------------------------------------------------------------
-    def tree_free(self, R, C, key, s, gid=None, f=0.62):
+    def tree_free(self, R, C, key, s, gid=None, f=0.62, min_m=0.0):
         Dk = D(key, s); cl = role(key); tn = tone(key)
-        for r, c, it in self.trees.near(R, C, 14 / PX):
+        for r, c, it in self.trees.near(R, C, max(14.0, min_m) / PX):
             d = math.hypot(r - R, c - C) * PX
             same = gid is not None and it['gid'] == gid
             ff = 0.5 if same else f
-            if d < ff * (Dk + it['D']) / 2 or d < (2.2 if cl in 'LM' and it['cls'] in 'LM' else 1.6) or                     (not same and d < 3.2):
+            visual_min = min_m if same else max(min_m, float(ARCHVIZ['unrelated_tree_min_m']))
+            if d < visual_min or d < ff * (Dk + it['D']) / 2 or \
+                    d < (2.2 if cl in 'LM' and it['cls'] in 'LM' else 1.6) or (not same and d < 3.2):
                 return False
             if (cl == 'C') != (it['cls'] == 'C') and d < 8.0:
                 other = tn if it['cls'] == 'C' else it['tone']
@@ -230,11 +249,11 @@ def valid_mask(bed, cl):
         (bed.d_play >= (15.0 if cl == 'C' else 2.5)) & (bed.d_lowobj >= 2.5)
 
 
-def try_tree(P, bed, r, c, cands, rl, gid, f=0.62, row=None, idx=None):
+def try_tree(P, bed, r, c, cands, rl, gid, f=0.62, row=None, idx=None, min_m=0.0):
     """place the first species of `cands` that fits at (r,c); returns rec or None"""
     for key in cands:
         s = P.scale(key)
-        if tree_ok(bed, r, c, key) and P.tree_free(r + bed.r0, c + bed.c0, key, s, gid, f=f):
+        if tree_ok(bed, r, c, key) and P.tree_free(r + bed.r0, c + bed.c0, key, s, gid, f=f, min_m=min_m):
             return P.add_tree(bed, r, c, key, s, rl, gid, row=row, idx=idx)
     return None
 
@@ -267,8 +286,8 @@ def _row_points(seg, spacing, margin):
     return p[:k]
 
 
-def plant_row(P, bed, pts, mix, rl, fallback_classes=('M', 'S'), f=0.5, tan=None):
-    """mixed-species row; every failing position is repaired (shift +-1.5 m along, then smaller class)."""
+def plant_row(P, bed, pts, mix, rl, fallback_classes=('M', 'S'), f=0.5, tan=None, min_spacing=0.0):
+    """Mixed row with gap repair; shifted/fallback trees still obey a real minimum centre spacing."""
     seq = mixed_seq(P.rng, mix, len(pts))
     gid = P.new_group(); row = gid
     if tan is None and len(pts) > 1:
@@ -279,19 +298,19 @@ def plant_row(P, bed, pts, mix, rl, fallback_classes=('M', 'S'), f=0.5, tan=None
     for n, ((r, c), key) in enumerate(zip(pts, seq)):
         pm = SPC.mesh(prev) if prev else None
         opts = [k for k in [key] + [k for k, w in mix if k != key] if SPC.mesh(k) != pm]
-        rec = try_tree(P, bed, r, c, opts, rl, gid, f=f, row=row, idx=n)
+        rec = try_tree(P, bed, r, c, opts, rl, gid, f=f, row=row, idx=n, min_m=min_spacing)
         if rec is None and tan is not None:
             t = tan[n] if len(tan) > n else tan[-1]
             for sh in (1.5, -1.5):
                 rr, cc = r + t[0] * sh / PX, c + t[1] * sh / PX
-                rec = try_tree(P, bed, rr, cc, opts, rl, gid, f=f, row=row, idx=n)
+                rec = try_tree(P, bed, rr, cc, opts, rl, gid, f=f, row=row, idx=n, min_m=min_spacing)
                 if rec:
                     break
         if rec is None:
             for cl in fallback_classes:
                 ks = [k for k in class_list(P, cl) if SPC.mesh(k) != pm]
                 P.rng.shuffle(ks)
-                rec = try_tree(P, bed, r, c, ks, rl, gid, f=f, row=row, idx=n)
+                rec = try_tree(P, bed, r, c, ks, rl, gid, f=f, row=row, idx=n, min_m=min_spacing)
                 if rec:
                     STATS['row_repair_smaller'] += 1
                     break
@@ -336,13 +355,15 @@ def street_rows(P, bed):
                     pts = _row_points(s2, sp, 4.0)
                     if not len(pts):
                         continue
-                    # parallel row already along this street (verge across a sidewalk): skip duplicate
-                    dup = sum(1 for r, c in pts if any(it['role'] == 'street' for _, _, it in
-                                                       P.trees.near(r + bed.r0, c + bed.c0, 7.0 / PX)))
-                    if dup > 0.3 * len(pts):
-                        continue
-                    _, tan = G.resample_even(s2, False, sp, 0)
-                    n += len(plant_row(P, bed, pts, mix, 'street', fallback_classes=fb, tan=None))
+                    # Do not discard a whole partly-overlapping segment: the per-position spacing guard keeps
+                    # the existing part and repairs only genuinely free gaps.  This fixes both doubled rows and
+                    # long skipped strip fragments.
+                    min_sp = max(float(ARCHVIZ['row_min_spacing_m']), sp * float(ARCHVIZ['row_spacing_factor']))
+                    got = plant_row(P, bed, pts, mix, 'street', fallback_classes=fb, tan=None,
+                                    min_spacing=min_sp)
+                    if not got:
+                        STATS['street_overlap_segments_skipped'] += 1
+                    n += len(got)
     return n
 
 
@@ -367,7 +388,10 @@ def play_shade(P, bed):
                 if G.arclen(seg) < 5:
                     continue
                 pts = _row_points(seg, 7.5 if sw else 10.0, 2.0)
-                n += len(plant_row(P, bed, pts, mix, 'play', fallback_classes=('M', 'S'), f=0.55))
+                min_sp = max(float(ARCHVIZ['row_min_spacing_m']), (7.5 if sw else 10.0) *
+                             float(ARCHVIZ['row_spacing_factor']))
+                n += len(plant_row(P, bed, pts, mix, 'play', fallback_classes=('M', 'S'), f=0.55,
+                                   min_spacing=min_sp))
     return n
 
 
@@ -409,7 +433,9 @@ def axis_rows(P, bed, wband=(3.0, 12.0), min_len=8.0):
             if len(pts) and sum(busy) > 0.5 * len(pts):
                 continue
             pts = np.array([p for p, b in zip(pts, busy) if not b]).reshape(-1, 2)
-            n += len(plant_row(P, bed, pts, mix, 'row', fallback_classes=fbc, f=0.55))
+            min_sp = max(float(ARCHVIZ['row_min_spacing_m']), sp * float(ARCHVIZ['row_spacing_factor']))
+            n += len(plant_row(P, bed, pts, mix, 'row', fallback_classes=fbc, f=0.55,
+                               min_spacing=min_sp))
     return n
 
 
@@ -427,7 +453,9 @@ def path_frame_rows(P, bed, min_run=24.0):
             if G.arclen(seg) < min_run:
                 continue
             pts = _row_points(seg, 9.5, 3.0)
-            n += len(plant_row(P, bed, pts, P.grp['L'], 'frame', fallback_classes=('M',), f=0.55))
+            min_sp = max(float(ARCHVIZ['row_min_spacing_m']), 9.5 * float(ARCHVIZ['row_spacing_factor']))
+            n += len(plant_row(P, bed, pts, P.grp['L'], 'frame', fallback_classes=('M',), f=0.55,
+                               min_spacing=min_sp))
     return n
 
 
@@ -653,6 +681,19 @@ def path_dir(bed, r, c, field='pave', maxd=8.0):
     return v / n if n > 1e-6 else None
 
 
+def edge_dir(bed, r, c):
+    """Direction from a tree towards its nearest bed edge (fallback when no path gradient is readable)."""
+    if not hasattr(bed, '_edge_grad'):
+        bed._edge_grad = np.gradient(bed.dt)
+    i, j = int(r), int(c)
+    if not (0 <= i < bed.m.shape[0] and 0 <= j < bed.m.shape[1]):
+        return np.array([1.0, 0.0])
+    gy, gx = bed._edge_grad
+    v = -np.array([gy[i, j], gx[i, j]])
+    n = np.hypot(*v)
+    return v / n if n > 1e-6 else np.array([1.0, 0.0])
+
+
 def skirts_for_lot(P, beds_by_id):
     """one skirt per group on the tree nearest a path/playground; rows every 2nd tree; singles all."""
     trees = [r for r in P.recs if is_tree(r['key']) and role(r['key']) != 'C']
@@ -665,7 +706,8 @@ def skirts_for_lot(P, beds_by_id):
         rl = ts[0]['role']
         if rl in ('street', 'row', 'frame', 'play'):
             ts = sorted(ts, key=lambda t: t['idx'] if t['idx'] is not None else 0)
-            step = 2 if rl != 'street' else 3
+            step = int(ARCHVIZ['street_skirt_step']) if rl == 'street' else 2
+            step = max(step, 1)
             pick = ts[P.rng.integers(0, step)::step] if len(ts) > 1 else ts
         else:
             pick = None
@@ -691,10 +733,7 @@ def skirts_for_lot(P, beds_by_id):
             if any(True for _ in skirt_hash.near(t['R'], t['C'], SKIRT_GAP / PX)):
                 continue
             if v is None:
-                if rl in ('cluster', 'spec') and len(ts) <= 2:
-                    v = np.array([1.0, 0.0])
-                else:
-                    continue
+                v = edge_dir(bed, t['R'] - bed.r0, t['C'] - bed.c0)
             got = skirt(P, bed, t, v, pick_combo(P, bed, t['gid'] % 3))
             if got:
                 skirt_hash.add(t['R'], t['C'], 1)
@@ -747,6 +786,36 @@ def drift_at(P, bed, r, c, combo, length=5.0, rows=3, gid=None):
         P.remove(out)
         return []
     return out
+
+
+def facade_drifts(P, bed):
+    """Rhythmic layered masses along true building edges, with deliberate gaps between compositions."""
+    if bed.A < 10 or bed.min_bld > 2.5:
+        return 0
+    period = max(8.0, float(ARCHVIZ['facade_drift_period_m']))
+    min_run = max(4.0, float(ARCHVIZ['facade_drift_min_run_m']))
+    n = 0
+    for cnt in G.offset_contours(bed, 1.1):
+        lab = G.edge_labels(bed, cnt, 1.1)
+        i = np.clip(cnt[:, 0].astype(int), 0, bed.m.shape[0] - 1)
+        j = np.clip(cnt[:, 1].astype(int), 0, bed.m.shape[1] - 1)
+        good = (lab == BLD) & (bed.d_play[i, j] >= 1.5) & (low_only(bed)[i, j] >= 0.8)
+        for idx in G.runs(good)[0]:
+            seg = cnt[idx]
+            length = G.arclen(seg)
+            if length < min_run:
+                continue
+            pts = _row_points(seg, period, min(2.0, length * 0.2))
+            for q, (r, c) in enumerate(pts):
+                R, C = r + bed.r0, c + bed.c0
+                if any(True for _ in P.shrubs.near(R, C, period * 0.42 / PX)):
+                    continue
+                mass_len = min(7.5, max(4.5, length * 0.32))
+                got = drift_at(P, bed, r, c, pick_combo(P, bed, q), length=mass_len, rows=3)
+                if got:
+                    n += len(got)
+                    STATS['facade_masses'] += 1
+    return n
 
 
 def strip_groups(P, bed, period=7.5, glen=3.6):
@@ -825,6 +894,58 @@ def far_patches(P, bed, far=4.0, min_area=30.0, exclude=None):
     return out
 
 
+def bed_tree_profile(P, bed):
+    trees = [r for r in P.recs if r['bed'] == bed.id and is_tree(r['key'])]
+    can = P.canvas.crop(bed, 'can')
+    canopy = float((can & bed.m).sum() / max(bed.m.sum(), 1))
+    return len(trees), len(trees) * 100.0 / max(bed.A, 1.0), canopy
+
+
+def repair_tree(P, bed, comp, r, c):
+    """Add one structural tree at the best valid point of a bare patch, then underplant it."""
+    ys, xs = np.nonzero(comp)
+    order = np.argsort((ys - r) ** 2 + (xs - c) ** 2)
+    placed = None
+    for cl in ('L', 'M', 'S'):
+        vm = valid_mask(bed, cl)
+        sel = [o for o in order[:4000:7] if vm[ys[o], xs[o]]]
+        for o in sel[:40]:
+            ks = cands_for(P, None, (cl,))
+            placed = try_tree(P, bed, ys[o] + 0.5, xs[o] + 0.5, ks, 'fill', P.new_group(),
+                              f=0.6, min_m=float(ARCHVIZ['row_min_spacing_m']))
+            if placed:
+                break
+        if placed:
+            break
+    if placed:
+        rr, cc = placed['R'] - bed.r0, placed['C'] - bed.c0
+        v = path_dir(bed, rr, cc, 'hard', 12.0)
+        skirt(P, bed, placed, v if v is not None else edge_dir(bed, rr, cc), pick_combo(P, bed, 1))
+    return placed
+
+
+def repair_shrubs(P, bed, comp, r, c, edge_first=False):
+    """Build one mixed, layered shrub composition; return its records or an empty list."""
+    ys, xs = np.nonzero(comp)
+    order = np.argsort((ys - r) ** 2 + (xs - c) ** 2)
+
+    def edge_mass():
+        for trial in range(6):
+            o = order[min(trial * 37, len(order) - 1)]
+            rr, cc = ys[o] + 0.5, xs[o] + 0.5
+            got = drift_at(P, bed, rr, cc, pick_combo(P, bed, trial),
+                           length=P.rng.uniform(4.5, 7.0), rows=3)
+            if got:
+                return got
+        return []
+
+    if edge_first:
+        got = edge_mass()
+        return got or lens_group(P, bed, comp) or ridge_group(P, bed, comp)
+    got = lens_group(P, bed, comp) or ridge_group(P, bed, comp)
+    return got or edge_mass()
+
+
 def repair_bed(P, bed, glade_mask=None, rounds=16):
     added = 0
     for rnd in range(rounds):
@@ -833,40 +954,26 @@ def repair_bed(P, bed, glade_mask=None, rounds=16):
             break
         progress = False
         for a, r, c, comp in sorted(ps, key=lambda x: -x[0]):
-            # 1) a tree (largest class that fits near the far point) + skirt
-            ys, xs = np.nonzero(comp)
-            order = np.argsort((ys - r) ** 2 + (xs - c) ** 2)
-            placed = None
-            for cl in ('L', 'M', 'S'):
-                vm = valid_mask(bed, cl)
-                sel = [o for o in order[:4000:7] if vm[ys[o], xs[o]]]
-                for o in sel[:40]:
-                    ks = cands_for(P, None, (cl,))
-                    placed = try_tree(P, bed, ys[o] + 0.5, xs[o] + 0.5, ks, 'fill', P.new_group(), f=0.6)
-                    if placed:
-                        break
-                if placed:
-                    break
-            if placed:
-                progress = True; added += 1
-                v = path_dir(bed, placed['R'] - bed.r0, placed['C'] - bed.c0, 'hard', 12.0)
-                skirt(P, bed, placed, v if v is not None else np.array([1.0, 0.0]), pick_combo(P, bed, 1))
-                continue
-            # 2) an edge drift at the edge nearest to the far point
-            got = []
-            for trial in range(6):
-                o = order[min(trial * 37, len(order) - 1)]
-                rr, cc = ys[o] + 0.5, xs[o] + 0.5
-                got = drift_at(P, bed, rr, cc, pick_combo(P, bed, trial), length=P.rng.uniform(4.5, 7.0), rows=3)
-                if got:
-                    break
-            if got:
-                progress = True; added += len(got)
+            before = len(P.recs)
+            nt, density, canopy = bed_tree_profile(P, bed)
+            tree_heavy = density >= float(ARCHVIZ['tree_heavy_per_100m2']) or \
+                canopy >= float(ARCHVIZ['tree_heavy_canopy'])
+            edge_context = bed.fac_frac >= 0.08 or bed.type in ('T2', 'T3', 'T9', 'T9s') or bed.elong > 4
+            shrub_first = tree_heavy or edge_context
+            if shrub_first:
+                STATS['repair_shrub_first'] += 1
+                got = repair_shrubs(P, bed, comp, r, c, edge_first=edge_context)
+                if not got:
+                    repair_tree(P, bed, comp, r, c)
             else:
-                # 3) a free-standing mixed group at the far point (wide lawn, trees impossible e.g. near facades)
-                g = lens_group(P, bed, comp) or ridge_group(P, bed, comp)
-                if g:
-                    progress = True; added += len(g)
+                STATS['repair_tree_first'] += 1
+                placed = repair_tree(P, bed, comp, r, c)
+                if not placed:
+                    repair_shrubs(P, bed, comp, r, c, edge_first=bed.fac_frac >= 0.08)
+            delta = len(P.recs) - before
+            if delta:
+                progress = True
+                added += delta
         if not progress:
             break
     return added
@@ -1054,7 +1161,9 @@ def design_lot(S, lot, beds, seed=0):
     P.canvas.redraw(P.recs)
     # 6 skirts
     skirts_for_lot(P, by_id)
-    # 7 narrow beds without trees -> strip groups
+    # 7 designed facade masses, then narrow-bed rhythm
+    for b in B:
+        facade_drifts(P, b)
     for b in B:
         if b.Wmed < 4.0:
             strip_groups(P, b)

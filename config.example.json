@@ -67,7 +67,25 @@
     "anchor_ue_px": null
   },
 
-  "engine": {"tag": "v6", "seed_salt": 7919},
+  "engine": {
+    "tag": "v6",
+    "seed_salt": 7919,
+    "archviz": {
+      "_comment": "06_engine ichidagi yagona archviz pass: real qator oraligi, ritmik daraxt-tagi/fasad massalari va kontekstli repair.",
+      "row_spacing_factor": 0.78,
+      "row_min_spacing_m": 4.0,
+      "unrelated_tree_min_m": 4.0,
+      "skirt_gap_m": 7.5,
+      "street_skirt_step": 2,
+      "facade_drift_period_m": 13.0,
+      "facade_drift_min_run_m": 7.0,
+      "tree_heavy_per_100m2": 3.5,
+      "tree_heavy_canopy": 0.52,
+      "audit_underplant_m": 3.0,
+      "audit_crowded_tree_m": 4.0,
+      "audit_facade_min_fraction": 0.08
+    }
+  },
 
   "mpc_seasons": {
     "path": "/Game/UltraDynamicSky/Materials/Weather/UltraDynamicWeather_Parameters",

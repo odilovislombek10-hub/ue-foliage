@@ -5,7 +5,7 @@ Writes work/engine/preview/<level>.png and OVERVIEW_stage1.png (+ left/right hal
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lib'))
 import env  # noqa: E402
-import pickle, collections, math, numpy as np, cv2  # noqa: E402
+import json, pickle, collections, math, numpy as np, cv2  # noqa: E402
 from lsite import Site, SP, PX
 import species6 as SPC
 
@@ -34,7 +34,7 @@ def bgr(c):
     return (int(c[2]), int(c[1]), int(c[0]))
 
 
-def render(S, m, title, box=None, scale=1.0, legend=True):
+def render(S, m, title, box=None, scale=1.0, legend=True, audit=None):
     recs = m['recs']
     beds = m['beds']
     if box is None:
@@ -80,6 +80,26 @@ def render(S, m, title, box=None, scale=1.0, legend=True):
         for (gr, gc, rad) in gl:
             cv2.circle(img, (int((gc + b['c0'] - C0) * f), int((gr + b['r0'] - R0) * f)),
                        int(rad / PX * f), (0, 140, 255), 2, cv2.LINE_AA)
+    # Verify output becomes a visual punch list: severe beds are red, lesser composition warnings orange.
+    for b in (beds if audit else ()):
+        a = audit.get(str(b['id']))
+        if not a:
+            continue
+        bm = (bl == b['id']).astype(np.uint8)
+        cnts, _ = cv2.findContours(bm, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        col = (25, 25, 230) if a.get('score', 0) >= 6 else (0, 145, 255)
+        scaled = [np.rint(c.astype(np.float32) * f).astype(np.int32) for c in cnts]
+        cv2.drawContours(img, scaled, -1, col, max(1, int(round(2 * f))), cv2.LINE_AA)
+        ys, xs = np.nonzero(bm)
+        if len(ys):
+            x = int(xs.mean() * f); y = int(ys.mean() * f)
+            codes = {'tree_bases_underplanted': 'U', 'trees_overcrowded': 'C',
+                     'large_uncomposed_gap': 'G', 'bare_facade_edge': 'F', 'tree_density_excess': 'D'}
+            label = 'B%s:%s' % (b['id'], ''.join(codes.get(q, '?') for q in a.get('issues', [])))
+            cv2.putText(img, label, (x - 20, y), cv2.FONT_HERSHEY_SIMPLEX, max(0.35, 0.48 * f),
+                        (255, 255, 255), 3, cv2.LINE_AA)
+            cv2.putText(img, label, (x - 20, y), cv2.FONT_HERSHEY_SIMPLEX, max(0.35, 0.48 * f),
+                        col, 1, cv2.LINE_AA)
     if legend:
         cnt = collections.Counter(r['key'] for r in recs)
         pad = np.full((max(img.shape[0], 60 + 19 * len(cnt)), 330, 3), 255, np.uint8)
@@ -120,9 +140,13 @@ if __name__ == '__main__':
     tag = sys.argv[1] if len(sys.argv) > 1 else env.CFG['engine']['tag']
     S = Site()
     meta = pickle.load(open(os.path.join(SP, 'engine', 'meta_%s.pkl' % tag), 'rb'))
+    verify_path = os.path.join(SP, 'engine', 'verify_%s.json' % tag)
+    verify = json.load(open(verify_path)) if os.path.exists(verify_path) else {}
+    audit_levels = verify.get('archviz_design', {}).get('per_level', {})
     lvls = [a for a in sys.argv[2:] if a != 'ov'] or list(meta)
     for lvl in lvls:
-        img = render(S, meta[lvl], '%s (%s)' % (lvl, meta[lvl]['palette']))
+        audit = audit_levels.get(lvl, {}).get('beds', {})
+        img = render(S, meta[lvl], '%s (%s)' % (lvl, meta[lvl]['palette']), audit=audit)
         cv2.imwrite(os.path.join(OUT, '%s.png' % lvl), img)
         print(lvl, img.shape)
     if 'ov' in sys.argv[2:] or not sys.argv[2:]:

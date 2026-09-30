@@ -3,12 +3,13 @@
 Usage:  python 07_verify.py [tag] [--ref path/to/older_xf.json]
 Checks: schema, every instance on lawn and inside a lot bed, clearance to edge/facade/road/playground per role,
 oleander >= 10 m from playgrounds, rows never repeat one model > 2 times, groups mixed, yaw/scale variation,
-tone rules (dark never next to yellow, conifers away from light broadleaf), coverage and empty lawn patches
-(> 30 m2 farther than 4 m from any plant). Writes work/engine/verify_<tag>.json."""
+tone rules, coverage/empty patches and archviz composition (real row spacing, unrelated tree crowding,
+underplanted tree bases, facade masses and worst beds). Writes work/engine/verify_<tag>.json."""
 import os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lib'))
 import env  # noqa: E402
 import json, pickle, math, collections, argparse, numpy as np, cv2  # noqa: E402
+from scipy.spatial import cKDTree  # noqa: E402
 from lsite import Site, SP, PX, X0, Y0, RES
 import species6 as SPC
 import metrics6
@@ -20,6 +21,12 @@ _a = _ap.parse_args()
 tag = _a.tag
 D6 = os.path.join(SP, 'engine')
 S = Site()
+ARCHVIZ = {'audit_underplant_m': 3.0, 'audit_crowded_tree_m': 4.0, 'audit_facade_min_fraction': 0.08,
+           'tree_heavy_per_100m2': 3.5}
+ARCHVIZ.update(env.CFG.get('engine', {}).get('archviz', {}))
+UNDERPLANT_M = float(ARCHVIZ['audit_underplant_m'])
+CROWDED_M = float(ARCHVIZ['audit_crowded_tree_m'])
+FACADE_FRAC = float(ARCHVIZ['audit_facade_min_fraction'])
 xf = json.load(open(os.path.join(D6, 'xf_%s.json' % tag)))
 meta = pickle.load(open(os.path.join(D6, 'meta_%s.pkl' % tag), 'rb'))
 ref = json.load(open(_a.ref)) if _a.ref else xf
@@ -92,7 +99,7 @@ for lvl, m in meta.items():
             groups[(lvl, r['gid'])].append(r)
         else:
             sgroups[(lvl, r['gid'])].append(r)
-max_run = 0; bad_rows = []; row_species = collections.Counter()
+max_run = 0; bad_rows = []; row_species = collections.Counter(); row_dists = []; tight_rows = []
 for k, v in rows.items():
     v = sorted(v, key=lambda r: r['idx'])
     run = 1; best = 1
@@ -104,12 +111,20 @@ for k, v in rows.items():
         bad_rows.append((k, best))
     if len(v) >= 4:
         row_species[min(len({SPC.mesh(r['key']) for r in v}), 4)] += 1
+    if len(v) >= 2:
+        ds = [math.hypot(a['R'] - b['R'], a['C'] - b['C']) * PX for a, b in zip(v, v[1:])]
+        row_dists.extend(ds)
+        if min(ds) < CROWDED_M:
+            tight_rows.append(dict(level=k[0], row=k[1], role=v[0].get('role'), minimum=round(min(ds), 2)))
 grp3 = [v for k, v in groups.items() if len(v) >= 3 and v[0]['role'] in ('cluster', 'conifer')]
 mono_groups = sum(1 for v in grp3 if len({SPC.mesh(r['key']) for r in v}) < 2)
 sg_sizes = [len(v) for v in sgroups.values()]
 sg_mono = sum(1 for v in sgroups.values() if len({SPC.mesh(r['key']) for r in v}) < 2)
 sg_small = sum(1 for v in sgroups.values() if len(v) < 3)
 rep['species_mix'] = dict(rows=len(rows), rows_max_identical_run=max_run, rows_with_run_gt2=len(bad_rows),
+                          row_spacing_min_m=round(min(row_dists), 2) if row_dists else None,
+                          row_spacing_median_m=round(float(np.median(row_dists)), 2) if row_dists else None,
+                          rows_with_spacing_lt_audit=len(tight_rows), tightest_rows=sorted(tight_rows, key=lambda x: x['minimum'])[:20],
                           rows_ge4_by_species_count=dict(sorted(row_species.items())),
                           tree_groups_ge3=len(grp3), tree_groups_ge3_single_species=mono_groups,
                           shrub_groups=len(sgroups), shrub_groups_single_species=sg_mono, shrub_groups_lt3=sg_small,
@@ -128,7 +143,6 @@ bad_c = bad_dy = 0
 for m in meta.values():
     T = [r for r in m['recs'] if SPC.is_tree(r['key'])]
     P = np.array([[r['R'], r['C']] for r in T]) if T else np.zeros((0, 2))
-    from scipy.spatial import cKDTree
     if len(T) < 2:
         continue
     for a, b in cKDTree(P).query_pairs(8.0 / PX):
@@ -152,6 +166,85 @@ rep['coverage'] = {k: dict(lawn_m2=v['lawn_m2'], canopy=v['canopy'], covered=v['
                            patches=len(v['patches'])) for k, v in M.items()}
 rep['empty_patches_gt30m2_far4m'] = patches
 rep['unresolved_patches'] = sum(1 for p in patches if p['reason'] == 'UNRESOLVED')
+
+# Archviz composition audit.  Designed members of one free-form cluster may merge crowns; unrelated trees
+# and all structural rows are checked against the hard visual spacing threshold.
+unresolved_by_bed = collections.defaultdict(float)
+for p in patches:
+    if p['reason'] == 'UNRESOLVED':
+        unresolved_by_bed[(p['level'], int(p['bed']))] += float(p['area'])
+
+audit_levels = collections.OrderedDict(); audit_total = collections.Counter(); worst = []
+structural_roles = {'street', 'row', 'frame', 'play', 'fill'}
+for lvl, m in meta.items():
+    by_bed = collections.defaultdict(list)
+    for r in m['recs']:
+        by_bed[int(r['bed'])].append(r)
+    level_counter = collections.Counter(); bed_report = collections.OrderedDict()
+    for b in sorted(m['beds'], key=lambda x: x['id']):
+        bid = int(b['id']); recs = by_bed[bid]
+        trees_b = [r for r in recs if SPC.is_tree(r['key'])]
+        broad = [r for r in trees_b if SPC.role(r['key']) != 'C']
+        shrubs_b = [r for r in recs if not SPC.is_tree(r['key'])]
+        tp = np.array([[r['R'] * PX, r['C'] * PX] for r in trees_b], float)
+        bp = np.array([[r['R'] * PX, r['C'] * PX] for r in broad], float)
+        sp = np.array([[r['R'] * PX, r['C'] * PX] for r in shrubs_b], float)
+        if len(broad) and len(shrubs_b):
+            d, _ = cKDTree(sp).query(bp, k=1)
+            under = int((d > UNDERPLANT_M).sum())
+        else:
+            under = len(broad)
+        crowded = 0; cluster_pairs = 0
+        if len(trees_b) >= 2:
+            for i, j in cKDTree(tp).query_pairs(CROWDED_M):
+                a, z = trees_b[i], trees_b[j]
+                if a.get('gid') != z.get('gid') or a.get('role') in structural_roles or z.get('role') in structural_roles:
+                    crowded += 1
+                else:
+                    cluster_pairs += 1
+        shrub_groups = collections.defaultdict(list)
+        for r in shrubs_b:
+            shrub_groups[r.get('gid')].append(r)
+        masses = sum(1 for v in shrub_groups.values() if len(v) >= 3 and len({x['key'] for x in v}) >= 2)
+        area = float(b.get('A', 0.0)); density = len(trees_b) * 100.0 / max(area, 1.0)
+        facade = float(b.get('fac', 0.0)) >= FACADE_FRAC and area >= 10.0
+        facade_missing = bool(facade and masses == 0)
+        gap_m2 = round(unresolved_by_bed[(lvl, bid)], 1)
+        high_density = bool(area >= 80 and density >= 2.0 * float(ARCHVIZ['tree_heavy_per_100m2']))
+        issues = []
+        if broad and under / len(broad) > 0.55:
+            issues.append('tree_bases_underplanted')
+        if crowded:
+            issues.append('trees_overcrowded')
+        if gap_m2:
+            issues.append('large_uncomposed_gap')
+        if facade_missing:
+            issues.append('bare_facade_edge')
+        if high_density:
+            issues.append('tree_density_excess')
+        score = gap_m2 / 30.0 + crowded * 1.5 + (under / max(len(broad), 1)) * 2.0 + \
+            (2.0 if facade_missing else 0.0) + (2.0 if high_density else 0.0)
+        d = dict(type=b.get('type'), area_m2=round(area, 1), trees=len(trees_b), shrubs=len(shrubs_b),
+                 shrub_masses=masses, tree_per_100m2=round(density, 2), broadleaf_bases=len(broad),
+                 underplanted_bases=under, crowded_unrelated_pairs=crowded,
+                 designed_cluster_pairs_ignored=cluster_pairs, unresolved_gap_m2=gap_m2,
+                 facade_bed=facade, issues=issues, score=round(score, 2))
+        if issues:
+            bed_report[str(bid)] = d
+            worst.append(dict(level=lvl, bed=bid, **d))
+        level_counter.update(trees=len(trees_b), shrubs=len(shrubs_b), broadleaf_bases=len(broad),
+                             underplanted_bases=under, crowded_unrelated_pairs=crowded,
+                             unresolved_gap_m2=gap_m2, facade_beds=int(facade),
+                             facade_beds_without_mass=int(facade_missing), issue_beds=int(bool(issues)))
+    audit_total.update(level_counter)
+    audit_levels[lvl] = dict(summary=dict(level_counter), beds=bed_report)
+
+rep['archviz_design'] = dict(
+    thresholds=dict(underplant_m=UNDERPLANT_M, crowded_unrelated_tree_m=CROWDED_M,
+                    facade_fraction=FACADE_FRAC,
+                    high_tree_density_per_100m2=2.0 * float(ARCHVIZ['tree_heavy_per_100m2'])),
+    totals=dict(audit_total), per_level=audit_levels,
+    worst_beds=sorted(worst, key=lambda x: (-x['score'], -x['unresolved_gap_m2']))[:40])
 # totals
 cnt = collections.Counter(p['mesh'] for v in xf.values() for p in v)
 rep['totals'] = dict(instances=tot, trees=sum(n for m, n in cnt.items() if any(SPC.is_tree(k) for k in MESH2KEYS[m])),
@@ -161,6 +254,7 @@ rep['totals'] = dict(instances=tot, trees=sum(n for m, n in cnt.items() if any(S
 json.dump(rep, open(os.path.join(D6, 'verify_%s.json' % tag), 'w'), indent=1, default=float)
 for k in ('schema', 'lawn_test', 'clearance_violations', 'clearance_min_m', 'species_mix', 'tone', 'unresolved_patches'):
     print(k, json.dumps(rep[k], default=float))
+print('archviz_design', json.dumps(rep['archviz_design']['totals'], default=float))
 print('patches:')
 for p in patches:
     print('  ', p['level'], p['area'], 'bed', p['bed'], p['reason'])

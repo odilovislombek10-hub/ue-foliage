@@ -124,6 +124,20 @@ Hamma fayllar `work_dir` ichida. ✎ = foydalanuvchi bilan kelishiladigan qo'lda
 | 14 | offline | `offline/09_camplan.py` | xf | `shots/lot_shots.json` |
 | 15 | editor | `ue/09_shots.py` `ARGS={'action':'lots'}` | | `Saved/Screenshots/WindowsEditor/LOT_*.png` — ✎ ko'rib chiqing |
 
+### Yagona archviz dizayn nazorati
+
+`06_engine.py` ichidagi archviz pass alohida qo'lda ishlatiladigan skript emas. U har bir generatsiyada avtomatik ravishda:
+
+- kesishgan offset konturlari sabab daraxt qatorlari ikki marta ekilishini real markaz oralig'i bilan to'xtatadi;
+- fasadlarda uzluksiz hedge emas, 2–4 turli butadan ritmik qatlamli massalar va ochiq intervallar yaratadi;
+- daraxti kam lawn uchun avval struktura daraxti, daraxti ko'p/uzun/fasad bed uchun avval buta kompozitsiyasi qo'yadi;
+- path topilmagan daraxt guruhlarini ham gazon chetiga yo'naltirilgan underplant bilan tugatadi.
+
+Chegaralar `config.engine.archviz` da. `07_verify.py` natijasidagi `archviz_design` lot/bed kesimida qator oralig'i,
+aloqasiz daraxt zichligi, daraxt taglari, katta bo'shliqlar va fasad massalarini tekshiradi. `08_preview.py` verify fayli
+bo'lsa muammoli bed konturini avtomatik belgilaydi: `G` bo'sh kompozitsiya, `C` daraxt crowding, `U` underplant,
+`F` fasad, `D` ortiqcha daraxt zichligi. Ishlab chiqarish tartibi doim `06 → 07 → 08 → vizual ko'rik`.
+
 ### Lot fayli `lots.json`
 
 ```json
