@@ -56,6 +56,17 @@ def queue(shots, prefix, wait=None, summer=True, then=None):
                                  wait=wait, summer=summer, then=then)
 
     def tick(dt):
+        # re-entrancy guard: take_high_res_screenshot can pump Slate while the editor is busy (mesh builds),
+        # which re-entered this callback recursively -> EXCEPTION_STACK_OVERFLOW crash on 2026-09-30.
+        if getattr(builtins, '_shot_tick_busy', False):
+            return
+        builtins._shot_tick_busy = True
+        try:
+            _tick(dt)
+        finally:
+            builtins._shot_tick_busy = False
+
+    def _tick(dt):
         Q = builtins._uefol_shots
         eas = unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
         w = unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world()
@@ -93,6 +104,17 @@ def cine(name, wait=20.0):
     builtins._uefol_cine = dict(state='pilot', t=time.time(), name=name, wait=float(wait))
 
     def tick(dt):
+        # re-entrancy guard: take_high_res_screenshot can pump Slate while the editor is busy (mesh builds),
+        # which re-entered this callback recursively -> EXCEPTION_STACK_OVERFLOW crash on 2026-09-30.
+        if getattr(builtins, '_shot_tick_busy', False):
+            return
+        builtins._shot_tick_busy = True
+        try:
+            _tick(dt)
+        finally:
+            builtins._shot_tick_busy = False
+
+    def _tick(dt):
         Q = builtins._uefol_cine
         wd = unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world()
         if wd is None:
@@ -121,6 +143,17 @@ def settle(steps, min_wait=None, max_wait=None):
                                   min_wait=min_wait, max_wait=max_wait)
 
     def tick(dt):
+        # re-entrancy guard: take_high_res_screenshot can pump Slate while the editor is busy (mesh builds),
+        # which re-entered this callback recursively -> EXCEPTION_STACK_OVERFLOW crash on 2026-09-30.
+        if getattr(builtins, '_shot_tick_busy', False):
+            return
+        builtins._shot_tick_busy = True
+        try:
+            _tick(dt)
+        finally:
+            builtins._shot_tick_busy = False
+
+    def _tick(dt):
         Q = builtins._uefol_settle
         w = unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world()
         if w is None:
